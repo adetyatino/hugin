@@ -1,0 +1,18 @@
+•	Følgende vedlagte fire .LAS-filer er eksportert med dybdeinkrement 0.5m; HR.LAS, MR.LAS, LR.LAS & SI.LAS
+•	Ratene er ved reservoarbetingelser (ikke konvertert til standard-betingelser vha PVT&-settet som er benyttet).
+•	Har kun tatt utgangspunkt i de «skjematiske» rateprofilene (tegnet som rette linjer over en inflow-sone mellom kalkuleringssoner over & under inflow…) – ikke de «aktuelle», dvs et datapunkt typisk per 0.1524 mMD.. aktuelle rater var faktisk heller ikke beregnet i Emeraude-filen).
+
+
+#------------                              ----------------------
+DEPT.m                          : curve   1    Depth
+DPDZ.K/M3                       : curve   2    Pseudo Density
+QOZI.m3/D                       : curve   3    Oil rate (inkrementell/delta oljerate)
+QOZT.m3/D                       : curve   4    Oil rate (kumulativ oljerate)
+QTZT.m3/D                       : curve   5    Mixture rate (total nedihullsrate)
+QWZI.m3/D                       : curve   6    Water rate (inkrementell/delta vannrate)
+QWZT.m3/D                       : curve   7    Water rate (kumulativ vannrate)
+VASPIN.M/MN                     : curve   8    Apparent velocity
+WPRE.bara                       : curve   9    Pressure
+WTEP.°C                         : curve  10    Temperature
+INFL_Z.                         : curve  11    Other (når flag=1 angis lengden på aktiv inflow-sone/perforering)
+

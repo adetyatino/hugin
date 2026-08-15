@@ -1,0 +1,557 @@
+[
+  {
+    "case": "hugin_as_text",
+    "macro": "hugin_as_text",
+    "why": "Spark rejects an unlengthed VARCHAR; its text type is STRING.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "15/9-F-11 T2"
+        ],
+        [
+          "15/9-F-15 D"
+        ],
+        [
+          "15/9-F-4"
+        ],
+        [
+          "NO 15/9-F-1 C"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "15/9-F-11 T2"
+        ],
+        [
+          "15/9-F-15 D"
+        ],
+        [
+          "15/9-F-4"
+        ],
+        [
+          "NO 15/9-F-1 C"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_as_text on a number",
+    "macro": "hugin_as_text",
+    "why": "The one that could differ silently: this cast sits inside every surrogate key, so a different text form is a different md5.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "39600.0"
+        ],
+        [
+          "39630.0"
+        ],
+        [
+          "41000.0"
+        ],
+        [
+          "43000.0"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "39600.0"
+        ],
+        [
+          "39630.0"
+        ],
+        [
+          "41000.0"
+        ],
+        [
+          "43000.0"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_surrogate_key",
+    "macro": "hugin_surrogate_key",
+    "why": "Every _key column in the warehouse. Must be byte-identical, or joins break across engines.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "0f650d8e8fb6f492f75142e07a2ec35e"
+        ],
+        [
+          "8dc886321c6cf3bacab301ab640d507b"
+        ],
+        [
+          "a78907134a03015fc687765d9b235168"
+        ],
+        [
+          "e1508176d494c6ef52d62bc0cd3291aa"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "0f650d8e8fb6f492f75142e07a2ec35e"
+        ],
+        [
+          "8dc886321c6cf3bacab301ab640d507b"
+        ],
+        [
+          "a78907134a03015fc687765d9b235168"
+        ],
+        [
+          "e1508176d494c6ef52d62bc0cd3291aa"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_date_from_excel_serial",
+    "macro": "hugin_date_from_excel_serial",
+    "why": "date_add takes its arguments the other way round from Trino's. Spark 3.5 accepts date + integer even with ANSI on, so this dispatch is precautionary.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "2008-06-01"
+        ],
+        [
+          "2008-07-01"
+        ],
+        [
+          "2012-04-01"
+        ],
+        [
+          "2017-09-22"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "2008-06-01"
+        ],
+        [
+          "2008-07-01"
+        ],
+        [
+          "2012-04-01"
+        ],
+        [
+          "2017-09-22"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_date_from_iso",
+    "macro": "hugin_date_from_iso",
+    "why": "Daily drilling reports write an offset: 2016-08-04T00:00:00+02:00. The date is taken in the offset the source wrote, so all three engines must agree that the first ten characters are the answer and not convert to UTC first.",
+    "dispatched": false,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "2013-04-01"
+        ],
+        [
+          "2016-08-04"
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          null
+        ],
+        [
+          "2013-04-01"
+        ],
+        [
+          "2016-08-04"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_to_number",
+    "macro": "hugin_to_number",
+    "why": "try_cast and the decimal-comma repair. Checks Spark's try_cast returns NULL rather than raising.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "1.5"
+        ],
+        [
+          "3.25"
+        ],
+        [
+          "12345.6"
+        ],
+        [
+          "nan"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "1.5"
+        ],
+        [
+          "3.25"
+        ],
+        [
+          "12345.6"
+        ],
+        [
+          "nan"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_null_if_sentinel",
+    "macro": "hugin_null_if_sentinel",
+    "why": "BR-08. A sentinel surviving as a number on one engine and not the other is the worst kind of drift.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "1.5"
+        ],
+        [
+          "3.25"
+        ],
+        [
+          "12345.6"
+        ],
+        [
+          null
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          null
+        ],
+        [
+          "1.5"
+        ],
+        [
+          "3.25"
+        ],
+        [
+          "12345.6"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_safe_divide",
+    "macro": "hugin_safe_divide",
+    "why": "Water cut on a shut-in day. Spark returns NULL for x/0 anyway; the macro must not turn that into an error.",
+    "dispatched": false,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          null
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          null
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_month_key",
+    "macro": "hugin_month_key",
+    "why": "extract() arithmetic. Both should give 201404.",
+    "dispatched": false,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "201404"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "201404"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_date_key",
+    "macro": "hugin_date_key",
+    "why": "Same, at day grain: 20140407.",
+    "dispatched": false,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "20140407"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "20140407"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_strpos",
+    "macro": "hugin_strpos",
+    "why": "Splits '15/9-F-15 D' into well and sidetrack. Spark has no strpos, and locate() reverses the arguments.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "0"
+        ],
+        [
+          "3"
+        ],
+        [
+          "10"
+        ],
+        [
+          "10"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "0"
+        ],
+        [
+          "3"
+        ],
+        [
+          "10"
+        ],
+        [
+          "10"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_strpos, sidetrack split",
+    "macro": "hugin_strpos",
+    "why": "The macro in the position the model actually uses it: the well_code and sidetrack_code split.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "15/9-F-11"
+        ],
+        [
+          "15/9-F-15"
+        ],
+        [
+          "15/9-F-4"
+        ],
+        [
+          "NO"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "15/9-F-11"
+        ],
+        [
+          "15/9-F-15"
+        ],
+        [
+          "15/9-F-4"
+        ],
+        [
+          "NO"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_seconds_between",
+    "macro": "hugin_seconds_between",
+    "why": "The one that fails silently. Databricks' two-argument datediff returns whole days, which would send every rig state in BR-06 to STATIC without raising anything.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "180"
+        ],
+        [
+          "270"
+        ],
+        [
+          "300"
+        ],
+        [
+          "690"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "180"
+        ],
+        [
+          "270"
+        ],
+        [
+          "300"
+        ],
+        [
+          "690"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_minutes_preceding",
+    "macro": "hugin_minutes_preceding",
+    "why": "The trailing block-travel window in fct_drilling_state. Spark's parser wants an unquoted number and a plural unit.",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "0.0"
+        ],
+        [
+          "0.0"
+        ],
+        [
+          "0.0"
+        ],
+        [
+          "6.5"
+        ],
+        [
+          "7.5"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "0.0"
+        ],
+        [
+          "0.0"
+        ],
+        [
+          "0.0"
+        ],
+        [
+          "6.5"
+        ],
+        [
+          "7.5"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "hugin_date_spine",
+    "macro": "hugin_date_spine",
+    "why": "dim_date over field life. Spark expands an array with explode(), not unnest().",
+    "dispatched": true,
+    "verdict": "agree",
+    "duckdb": {
+      "ok": true,
+      "rows": [
+        [
+          "rows=3044"
+        ],
+        [
+          "min=2008-06-01"
+        ],
+        [
+          "max=2016-09-30"
+        ]
+      ]
+    },
+    "spark": {
+      "ok": true,
+      "rows": [
+        [
+          "rows=3044"
+        ],
+        [
+          "min=2008-06-01"
+        ],
+        [
+          "max=2016-09-30"
+        ]
+      ]
+    }
+  }
+]
