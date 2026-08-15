@@ -52,6 +52,13 @@ transform/logs/
 
 # --- data ---
 # default: tolak semuanya
+
+# artefak metadata kecil yang ikut
+
+# jaring pengaman: format data mentah tetap ditolak di mana pun
+
+# --- data ---
+# default: tolak semuanya
 data/*
 
 # artefak metadata kecil yang ikut
