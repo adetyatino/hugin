@@ -1,0 +1,329 @@
+{
+  "calibrated_at": "2026-08-13T03:23:26+00:00",
+  "source": "silver tables built from the real Volve delivery",
+  "warning": "These are parameters describing the shape of real data. Data generated from them is FIXTURE and must never be presented as measurements of the Volve field - SPEC.md section 10.",
+  "rows_behind_calibration": {
+    "silver_production_daily": 14859,
+    "silver_log_sample": 30421,
+    "silver_log_curve": 3324,
+    "silver_wellbore_identity": 45
+  },
+  "parameter_counts": {
+    "calibrated": 12,
+    "assumed": 7
+  },
+  "parameters": {
+    "anomaly_counts_observed": {
+      "value": {
+        "dropout_missing_days": 173,
+        "duplicate_rows": 0,
+        "frozen_value_runs": 0,
+        "spike_days": 0,
+        "clock_skew_events": 0
+      },
+      "origin": "calibrated",
+      "basis": "counted in silver_production_daily: calendar gaps inside a wellbore's span, repeated _row_hash, runs of 3+ identical non-zero volumes, day-over-day changes beyond 5 sigma. Clock skew is 0 because production carries a date, not a timestamp, so the class cannot occur",
+      "rows_measured": 14859
+    },
+    "anomaly_rate_clock_skew": {
+      "value": 0.0,
+      "origin": "assumed",
+      "basis": "measured 0 occurrences in 14859 rows of real production, so there is no rate to calibrate. The generator can still inject this class at --dirt-level 2, where the rate is a deliberate test input rather than a claim about the field",
+      "rows_measured": 14859
+    },
+    "anomaly_rate_dropout": {
+      "value": 0.011643,
+      "origin": "calibrated",
+      "basis": "missing calendar days as a fraction of observed production days",
+      "rows_measured": 14859
+    },
+    "anomaly_rate_duplicate": {
+      "value": 0.0,
+      "origin": "assumed",
+      "basis": "measured 0 occurrences in 14859 rows of real production, so there is no rate to calibrate. The generator can still inject this class at --dirt-level 2, where the rate is a deliberate test input rather than a claim about the field",
+      "rows_measured": 14859
+    },
+    "anomaly_rate_frozen": {
+      "value": 0.0,
+      "origin": "assumed",
+      "basis": "measured 0 occurrences in 14859 rows of real production, so there is no rate to calibrate. The generator can still inject this class at --dirt-level 2, where the rate is a deliberate test input rather than a claim about the field",
+      "rows_measured": 14859
+    },
+    "anomaly_rate_spike": {
+      "value": 0.0,
+      "origin": "assumed",
+      "basis": "measured 0 occurrences in 14859 rows of real production, so there is no rate to calibrate. The generator can still inject this class at --dirt-level 2, where the rate is a deliberate test input rather than a claim about the field",
+      "rows_measured": 14859
+    },
+    "decline_shape_by_wellbore": {
+      "value": {
+        "15/9-F-1 C": [
+          1.0,
+          0.7174,
+          0.399
+        ],
+        "15/9-F-11": [
+          0.7849,
+          0.7754,
+          1.0,
+          0.4849
+        ],
+        "15/9-F-12": [
+          0.9197,
+          1.0,
+          0.5756,
+          0.258,
+          0.1698,
+          0.0957,
+          0.0433,
+          0.1275,
+          0.0487
+        ],
+        "15/9-F-14": [
+          1.0,
+          0.904,
+          0.6405,
+          0.4512,
+          0.3103,
+          0.2052,
+          0.115,
+          0.0588,
+          0.032
+        ],
+        "15/9-F-15 D": [
+          1.0,
+          0.7625,
+          0.711
+        ],
+        "15/9-F-5": [
+          1.0
+        ]
+      },
+      "origin": "calibrated",
+      "basis": "each producing year's mean oil as a fraction of the wellbore's best year",
+      "rows_measured": 14859
+    },
+    "identity_unresolved_count": {
+      "value": 0,
+      "origin": "calibrated",
+      "basis": "identities in silver with no wellbore_uid",
+      "rows_measured": 45
+    },
+    "identity_variants_per_wellbore": {
+      "value": 2.81,
+      "origin": "calibrated",
+      "basis": "distinct written identities divided by distinct resolved wellbores",
+      "rows_measured": 45
+    },
+    "las_sentinel_sample_share": {
+      "value": 0.031,
+      "origin": "calibrated",
+      "basis": "fraction of log samples whose value equalled the declared sentinel",
+      "rows_measured": 30421
+    },
+    "las_sentinel_spellings": {
+      "value": {
+        "-999.25": {
+          "curves": 2790,
+          "files": 81,
+          "file_share": 0.8265
+        },
+        "-9999": {
+          "curves": 362,
+          "files": 2,
+          "file_share": 0.0204
+        },
+        "-999.2500": {
+          "curves": 153,
+          "files": 14,
+          "file_share": 0.1429
+        },
+        "-999.25000": {
+          "curves": 19,
+          "files": 1,
+          "file_share": 0.0102
+        }
+      },
+      "origin": "calibrated",
+      "basis": "every distinct NULL sentinel declared in a LAS ~WELL section, by file count",
+      "rows_measured": 3324
+    },
+    "on_stream_hours_distribution": {
+      "value": {
+        "shut_in": 0.1073,
+        "partial": 0.1149,
+        "null": 0.0008,
+        "full": 0.777
+      },
+      "origin": "calibrated",
+      "basis": "share of production days that are full, partial, shut in, or unreported",
+      "rows_measured": 14859
+    },
+    "production_rate_by_wellbore": {
+      "value": {
+        "15/9-F-1 C": {
+          "days": 744,
+          "mean_sm3": 238.16,
+          "stddev_sm3": 275.77,
+          "peak_sm3": 1549.81
+        },
+        "15/9-F-11": {
+          "days": 1165,
+          "mean_sm3": 985.28,
+          "stddev_sm3": 437.06,
+          "peak_sm3": 2064.61
+        },
+        "15/9-F-12": {
+          "days": 2947,
+          "mean_sm3": 1441.18,
+          "stddev_sm3": 1652.98,
+          "peak_sm3": 5901.84
+        },
+        "15/9-F-14": {
+          "days": 2947,
+          "mean_sm3": 1337.71,
+          "stddev_sm3": 1297.79,
+          "peak_sm3": 5644.37
+        },
+        "15/9-F-15 D": {
+          "days": 978,
+          "mean_sm3": 151.86,
+          "stddev_sm3": 97.63,
+          "peak_sm3": 513.12
+        },
+        "15/9-F-5": {
+          "days": 144,
+          "mean_sm3": 266.89,
+          "stddev_sm3": 122.13,
+          "peak_sm3": 396.8
+        }
+      },
+      "origin": "calibrated",
+      "basis": "mean, stddev and peak daily oil per producing wellbore",
+      "rows_measured": 14859
+    },
+    "rig_state_distribution": {
+      "value": {
+        "DRILLING": 0.35,
+        "CIRCULATING": 0.15,
+        "TRIPPING_IN": 0.12,
+        "TRIPPING_OUT": 0.12,
+        "CONNECTION": 0.16,
+        "STATIC": 0.1
+      },
+      "origin": "assumed",
+      "basis": "NOT MEASURED. This delivery contains no WITSML log curves - mnemonicList appears in zero of 10,773 files - so no channel range or rig-state distribution could be computed. These are plausible drilling ranges used to generate load-test volume, and are not a claim about Volve"
+    },
+    "shutdown_event_count": {
+      "value": 264,
+      "origin": "calibrated",
+      "basis": "runs of consecutive zero-uptime days, counted as one shutdown each",
+      "rows_measured": 14859
+    },
+    "telemetry_channels": {
+      "value": {
+        "bit_depth_m": {
+          "min": 0.0,
+          "max": 4700.0
+        },
+        "hole_depth_m": {
+          "min": 0.0,
+          "max": 4700.0
+        },
+        "block_position_m": {
+          "min": 0.0,
+          "max": 28.0
+        },
+        "hook_load_klbf": {
+          "min": 20.0,
+          "max": 320.0
+        },
+        "wob_klbf": {
+          "min": 0.0,
+          "max": 45.0
+        },
+        "rpm": {
+          "min": 0.0,
+          "max": 180.0
+        },
+        "torque_kftlbf": {
+          "min": 0.0,
+          "max": 22.0
+        },
+        "flow_in_lpm": {
+          "min": 0.0,
+          "max": 3600.0
+        },
+        "spp_bar": {
+          "min": 0.0,
+          "max": 320.0
+        },
+        "rop_mph": {
+          "min": 0.0,
+          "max": 60.0
+        }
+      },
+      "origin": "assumed",
+      "basis": "NOT MEASURED. This delivery contains no WITSML log curves - mnemonicList appears in zero of 10,773 files - so no channel range or rig-state distribution could be computed. These are plausible drilling ranges used to generate load-test volume, and are not a claim about Volve"
+    },
+    "telemetry_sample_interval_seconds": {
+      "value": 5,
+      "origin": "assumed",
+      "basis": "NOT MEASURED. This delivery contains no WITSML log curves - mnemonicList appears in zero of 10,773 files - so no channel range or rig-state distribution could be computed. These are plausible drilling ranges used to generate load-test volume, and are not a claim about Volve. 5 s is a common WITSML surface-log rate"
+    },
+    "water_cut_by_wellbore_year": {
+      "value": {
+        "15/9-F-1 C": [
+          0.3076,
+          0.6525,
+          0.7883
+        ],
+        "15/9-F-11": [
+          0.0741,
+          0.1679,
+          0.433,
+          0.7927
+        ],
+        "15/9-F-12": [
+          0.0058,
+          0.032,
+          0.5176,
+          0.7574,
+          0.844,
+          0.9142,
+          0.9595,
+          0.6159,
+          0.8481
+        ],
+        "15/9-F-14": [
+          0.0017,
+          0.1194,
+          0.5426,
+          0.6899,
+          0.6806,
+          0.8109,
+          0.8885,
+          0.9364,
+          0.9624
+        ],
+        "15/9-F-15 D": [
+          0.0065,
+          0.1856,
+          0.566
+        ],
+        "15/9-F-5": [
+          0.2454
+        ]
+      },
+      "origin": "calibrated",
+      "basis": "mean daily water cut per wellbore per year",
+      "rows_measured": 14859
+    },
+    "water_cut_rise_per_year": {
+      "value": 0.197,
+      "origin": "calibrated",
+      "basis": "mean annual increase in water cut across producing wellbores",
+      "rows_measured": 14859
+    }
+  }
+}

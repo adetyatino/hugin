@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.osdu.opengroup.org/json/work-product-component/WellLog.1.0.0.json",
+  "x-osdu-schema-source": "osdu:wks:work-product-component--WellLog:1.0.0",
+  "x-hugin-reduced": "Reduced local copy. See src/hugin/osdu/schemas/README.md.",
+  "title": "WellLog",
+  "type": "object",
+  "required": ["kind", "acl", "legal"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[\\w\\-\\.]+:work-product-component\\-\\-WellLog:[\\w\\-\\.\\:\\%]+$"
+    },
+    "kind": {
+      "type": "string",
+      "const": "osdu:wks:work-product-component--WellLog:1.0.0"
+    },
+    "version": { "type": "integer" },
+    "acl": {
+      "type": "object",
+      "required": ["owners", "viewers"],
+      "properties": {
+        "owners": { "type": "array", "items": { "type": "string" } },
+        "viewers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "legal": {
+      "type": "object",
+      "required": ["legaltags", "otherRelevantDataCountries"],
+      "properties": {
+        "legaltags": { "type": "array", "items": { "type": "string" } },
+        "otherRelevantDataCountries": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+        },
+        "status": { "type": "string" }
+      }
+    },
+    "tags": { "type": "object" },
+    "data": {
+      "type": "object",
+      "properties": {
+        "Name": { "type": "string" },
+        "Description": { "type": "string" },
+        "Source": { "type": "string" },
+        "Datasets": { "type": "array", "items": { "type": "string" } },
+        "WellboreID": { "type": "string" },
+        "TopMeasuredDepth": { "type": "number" },
+        "BottomMeasuredDepth": { "type": "number" },
+        "ServiceCompanyID": { "type": "string" },
+        "LoggingService": { "type": "string" },
+        "LogSource": { "type": "string" },
+        "VerticalMeasurement": { "type": "object" },
+        "Curves": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "CurveID": { "type": "string" },
+              "Mnemonic": { "type": "string" },
+              "TopDepth": { "type": "number" },
+              "BaseDepth": { "type": "number" },
+              "DepthUnit": { "type": "string" },
+              "CurveUnit": { "type": "string" },
+              "CurveQuality": { "type": "string" },
+              "CurveDescription": { "type": "string" },
+              "InterpreterName": { "type": "string" },
+              "IsProcessed": { "type": "boolean" },
+              "DepthCoding": { "type": "string", "enum": ["REGULAR", "DISCRETE"] },
+              "Interpolate": { "type": "boolean" },
+              "NumberOfColumns": { "type": "integer" }
+            },
+            "required": ["Mnemonic"]
+          }
+        },
+        "ExtensionProperties": { "type": "object" }
+      }
+    }
+  }
+}

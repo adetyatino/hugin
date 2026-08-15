@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.osdu.opengroup.org/json/master-data/Wellbore.1.0.0.json",
+  "x-osdu-schema-source": "osdu:wks:master-data--Wellbore:1.0.0",
+  "x-hugin-reduced": "Reduced local copy. See src/hugin/osdu/schemas/README.md.",
+  "title": "Wellbore",
+  "type": "object",
+  "required": ["kind", "acl", "legal"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[\\w\\-\\.]+:master-data\\-\\-Wellbore:[\\w\\-\\.\\:\\%]+$"
+    },
+    "kind": {
+      "type": "string",
+      "const": "osdu:wks:master-data--Wellbore:1.0.0"
+    },
+    "version": { "type": "integer" },
+    "acl": {
+      "type": "object",
+      "required": ["owners", "viewers"],
+      "properties": {
+        "owners": { "type": "array", "items": { "type": "string" } },
+        "viewers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "legal": {
+      "type": "object",
+      "required": ["legaltags", "otherRelevantDataCountries"],
+      "properties": {
+        "legaltags": { "type": "array", "items": { "type": "string" } },
+        "otherRelevantDataCountries": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+        },
+        "status": { "type": "string" }
+      }
+    },
+    "tags": { "type": "object" },
+    "createTime": { "type": "string", "format": "date-time" },
+    "data": {
+      "type": "object",
+      "properties": {
+        "ResourceHomeRegionID": { "type": "string" },
+        "Source": { "type": "string" },
+        "ExistenceKind": { "type": "string" },
+        "NameAliases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "AliasName": { "type": "string" },
+              "AliasNameTypeID": { "type": "string" },
+              "DefinitionOrganisationID": { "type": "string" },
+              "EffectiveDateTime": { "type": "string", "format": "date-time" },
+              "TerminationDateTime": { "type": "string", "format": "date-time" }
+            },
+            "required": ["AliasName"]
+          }
+        },
+        "FacilityID": { "type": "string" },
+        "FacilityName": { "type": "string" },
+        "FacilityTypeID": { "type": "string" },
+        "FacilityStates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "FacilityStateTypeID": { "type": "string" },
+              "EffectiveDateTime": { "type": "string", "format": "date-time" },
+              "TerminationDateTime": { "type": "string", "format": "date-time" }
+            }
+          }
+        },
+        "FacilityOperators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "FacilityOperatorOrganisationID": { "type": "string" },
+              "FacilityOperatorName": { "type": "string" },
+              "EffectiveDateTime": { "type": "string", "format": "date-time" },
+              "TerminationDateTime": { "type": "string", "format": "date-time" }
+            }
+          }
+        },
+        "SpatialLocation": { "type": "object" },
+        "GeographicBottomHoleLocation": { "type": "object" },
+        "ProjectedBottomHoleLocation": { "type": "object" },
+        "VerticalMeasurements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "VerticalMeasurementID": { "type": "string" },
+              "VerticalMeasurement": { "type": "number" },
+              "VerticalMeasurementTypeID": { "type": "string" },
+              "VerticalMeasurementPathID": { "type": "string" },
+              "VerticalMeasurementUnitOfMeasureID": { "type": "string" },
+              "VerticalReferenceID": { "type": "string" }
+            }
+          }
+        },
+        "DefaultVerticalMeasurementID": { "type": "string" },
+        "WellID": { "type": "string" },
+        "SequenceNumber": { "type": "integer" },
+        "KickOffWellbore": { "type": "string" },
+        "TrajectoryTypeID": { "type": "string" },
+        "DefinitiveTrajectoryID": { "type": "string" },
+        "TargetFormation": { "type": "string" },
+        "PrimaryMaterialID": { "type": "string" },
+        "DrillingReasons": { "type": "array", "items": { "type": "object" } },
+        "ExtensionProperties": { "type": "object" }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.osdu.opengroup.org/json/work-product-component/WellboreTrajectory.1.0.0.json",
+  "x-osdu-schema-source": "osdu:wks:work-product-component--WellboreTrajectory:1.0.0",
+  "x-hugin-reduced": "Reduced local copy. See src/hugin/osdu/schemas/README.md.",
+  "title": "WellboreTrajectory",
+  "type": "object",
+  "required": ["kind", "acl", "legal"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[\\w\\-\\.]+:work-product-component\\-\\-WellboreTrajectory:[\\w\\-\\.\\:\\%]+$"
+    },
+    "kind": {
+      "type": "string",
+      "const": "osdu:wks:work-product-component--WellboreTrajectory:1.0.0"
+    },
+    "version": { "type": "integer" },
+    "acl": {
+      "type": "object",
+      "required": ["owners", "viewers"],
+      "properties": {
+        "owners": { "type": "array", "items": { "type": "string" } },
+        "viewers": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "legal": {
+      "type": "object",
+      "required": ["legaltags", "otherRelevantDataCountries"],
+      "properties": {
+        "legaltags": { "type": "array", "items": { "type": "string" } },
+        "otherRelevantDataCountries": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+        },
+        "status": { "type": "string" }
+      }
+    },
+    "tags": { "type": "object" },
+    "data": {
+      "type": "object",
+      "properties": {
+        "Name": { "type": "string" },
+        "Description": { "type": "string" },
+        "Source": { "type": "string" },
+        "Datasets": { "type": "array", "items": { "type": "string" } },
+        "WellboreID": { "type": "string" },
+        "TopDepthMeasuredDepth": { "type": "number" },
+        "BaseDepthMeasuredDepth": { "type": "number" },
+        "VerticalMeasurement": { "type": "object" },
+        "SurveyType": { "type": "string" },
+        "ServiceCompanyID": { "type": "string" },
+        "SurveyReferenceIdentifier": { "type": "string" },
+        "SurveyToolTypeID": { "type": "string" },
+        "ActiveIndicator": { "type": "boolean" },
+        "AvailableTrajectoryStationProperties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "TrajectoryStationPropertyTypeID": { "type": "string" },
+              "StationPropertyUnitID": { "type": "string" },
+              "Name": { "type": "string" }
+            }
+          }
+        },
+        "ExtensionProperties": { "type": "object" }
+      }
+    }
+  }
+}
