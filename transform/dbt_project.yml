@@ -1,0 +1,44 @@
+name: hugin
+version: 1.0.0
+config-version: 2
+profile: hugin
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+# The same models build on Trino and DuckDB. Where the dialects differ the
+# difference lives in macros/ behind adapter.dispatch, never in a model —
+# CLAUDE.md is explicit, and the reason is that a branch inside SQL is invisible
+# to `dbt compile` on the other target.
+dispatch:
+  - macro_namespace: hugin
+    search_order: ["hugin"]
+
+vars:
+  # BR-02: daily summed to a month must agree with the reported monthly figure
+  # within this fraction. The difference is the information; it is flagged, not
+  # corrected.
+  allocation_tolerance: 0.02
+
+  # BR-05: volumes stay in Sm3 through gold. Conversion to barrels of oil
+  # equivalent happens only in mart, with the factor as a variable so the number
+  # is stated once and visible.
+  sm3_to_boe: 6.2898
+
+  # SPEC.md section 2. Used by dim_date so the dimension covers field life
+  # rather than whatever happens to have been loaded.
+  field_start: "2008-06-01"
+  field_end: "2016-09-30"
+
+models:
+  hugin:
+    +materialized: table
+    silver:
+      +schema: silver
+    gold:
+      +schema: gold
+    mart:
+      +schema: mart

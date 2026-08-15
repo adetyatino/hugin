@@ -1,0 +1,91 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: >
+      Bronze, as SPEC.md section 3 defines it: the source's own values, every
+      column varchar, nothing cleaned. The seven mandatory technical columns are
+      on every table, plus _wellbore_uid resolved at ingest.
+
+      The same objects feed both targets. Trino reads the Iceberg tables; DuckDB
+      reads the Parquet files those tables are made of, straight out of MinIO,
+      through external_location below. CI that read a different copy of the data
+      would prove nothing about the models.
+
+      One consequence is worth knowing. Reading an Iceberg table's data
+      directory is not the same as reading the table: Iceberg keeps superseded
+      files until snapshot expiry, so a prefix scan sees rows a delete has
+      logically removed - 1,473 checkshot rows in the files against 491 in the
+      table. Silver deduplicates by _row_hash, and a superseded copy hashes
+      identically to its replacement, so both targets land on the same silver
+      rows. The dedup that exists for re-ingestion is what makes the file-level
+      read correct as well.
+    database: "{{ env_var('HUGIN_CATALOG', env_var('TRINO_CATALOG', 'iceberg')) }}"
+    schema: bronze
+    tables:
+      - name: prod_daily
+        description: "Daily production and injection. Grain: wellbore x production day."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/prod_daily-*/data/**/*.parquet"
+      - name: prod_monthly
+        description: "Reported monthly volumes. Grain: wellbore x month."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/prod_monthly-*/data/**/*.parquet"
+      - name: las_curve_header
+        description: "One row per curve per LAS file, carrying that file's declared NULL sentinel."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/las_curve_header-*/data/**/*.parquet"
+      - name: las_sample
+        description: "One row per index value per curve. Grain: file x curve x index value."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/las_sample-*/data/**/*.parquet"
+      - name: trajectory_station
+        description: "Directional survey stations. Grain: trajectory x station."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/trajectory_station-*/data/**/*.parquet"
+      - name: ddr_activity
+        description: "Daily drilling report activities. Grain: report x activity sequence."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/ddr_activity-*/data/**/*.parquet"
+      - name: vsp_checkshot
+        description: "Checkshot depth/time pairs. Grain: file x row."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/vsp_checkshot-*/data/**/*.parquet"
+      - name: sim_summary
+        description: "Eclipse balance pages. Grain: report date x row label."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/sim_summary-*/data/**/*.parquet"
+      - name: segy_header
+        description: "SEG-Y headers. Grain: one row per survey file."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/segy_header-*/data/**/*.parquet"
+      - name: witsml_message
+        description: "WITSML drilling messages. Grain: message uid."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/witsml_message-*/data/**/*.parquet"
+      - name: geom_fault_record
+        description: "ADDZCORN fault records from the Eclipse model. Grain: file x record."
+        meta:
+          external_location: "s3://hugin-lakehouse/warehouse/bronze/geom_fault_record-*/data/**/*.parquet"
+
+  - name: silver_stream
+    description: >
+      The one silver table dbt does not build. Spark Structured Streaming owns
+      `silver.drilling_telemetry` — it is created and appended to by
+      hugin.streaming.spark_stream, with the watermark, the dedup and the
+      checkpoint that BR-07 requires, none of which dbt can express.
+
+      It is declared as a source rather than modelled so the dependency is
+      explicit: `fct_drilling_state` reads a table another process writes, and
+      the DAG should say so. Declaring it also makes the freshness check in
+      docs/slo.md possible, which is the point of naming an owner.
+    database: "{{ env_var('HUGIN_CATALOG', env_var('TRINO_CATALOG', 'iceberg')) }}"
+    schema: silver
+    tables:
+      - name: drilling_telemetry
+        description: "WITSML telemetry samples. Grain: wellbore_uid x ts, deduplicated within the watermark."
+        meta:
+          # No `-<uuid>` in the path, unlike every other table here: dbt-trino
+          # appends one when it creates a relation, and this table is created by
+          # Spark's `CREATE TABLE ... USING iceberg` instead.
+          external_location: "s3://hugin-lakehouse/warehouse/silver/drilling_telemetry/data/**/*.parquet"

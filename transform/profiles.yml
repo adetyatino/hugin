@@ -1,0 +1,54 @@
+# Three targets, same models.
+#
+#   dbt build --target trino       against the compose stack
+#   dbt build --target duckdb      against the same Parquet in MinIO, no engine
+#   dbt build --target databricks  against a subset in a managed workspace
+#
+# The DuckDB target reads the bronze Parquet objects directly rather than a
+# copy: CI must exercise the data the primary target uses, or it proves nothing
+# about the models.
+#
+# The databricks target carries no default host or token on purpose. An
+# unreachable warehouse must fail with "not configured", never fall through to
+# something that happens to answer. docs/portability-report.md records what has
+# and has not been executed against it.
+hugin:
+  target: trino
+  outputs:
+    trino:
+      type: trino
+      method: none
+      user: "{{ env_var('TRINO_USER', 'hugin') }}"
+      host: "{{ env_var('TRINO_HOST', 'localhost') }}"
+      port: "{{ env_var('TRINO_PORT', '8080') | int }}"
+      catalog: "{{ env_var('TRINO_CATALOG', 'iceberg') }}"
+      schema: silver
+      threads: 4
+      http_scheme: http
+      session_properties:
+        # Bronze partitions on a varchar _replay_date, so a full-history model
+        # touches thousands of partitions in one write.
+        query_max_execution_time: 30m
+
+    duckdb:
+      type: duckdb
+      path: "{{ env_var('DUCKDB_PATH', 'target/hugin.duckdb') }}"
+      threads: 4
+      extensions:
+        - httpfs
+      settings:
+        s3_endpoint: "{{ env_var('MINIO_HOST', 'localhost:9000') }}"
+        s3_access_key_id: "{{ env_var('MINIO_ROOT_USER', 'hugin') }}"
+        s3_secret_access_key: "{{ env_var('MINIO_ROOT_PASSWORD', 'hugin-local-only') }}"
+        s3_use_ssl: false
+        s3_url_style: "path"
+        s3_region: "{{ env_var('MINIO_REGION', 'us-east-1') }}"
+
+    databricks:
+      type: databricks
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      catalog: "{{ env_var('DATABRICKS_CATALOG', 'hugin') }}"
+      schema: silver
+      threads: 4

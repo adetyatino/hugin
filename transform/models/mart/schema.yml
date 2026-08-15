@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: mart_allocation_reconciliation
+    description: >
+      **Grain: wellbore_uid x month_key.** BR-02. Daily rows summed to a month
+      against the operator's reported monthly figure, with the variance and the
+      out-of-tolerance flag. Neither number is corrected - the difference is the
+      information. A full outer join, so a month present in only one source
+      shows up rather than disappearing.
+    columns:
+      - name: wellbore_uid
+        tests: [not_null]
+      - name: month_key
+        tests: [not_null]
+      - name: is_out_of_tolerance
+        tests:
+          - not_null
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]
+      - name: tolerance_fraction
+        tests: [not_null]
+      - name: oil_variance_fraction
+        description: Daily minus monthly, relative to the reported monthly figure.
+
+  - name: mart_well_performance
+    description: >
+      **Grain: wellbore_uid x prod_date.** Daily rates, water cut, GOR and
+      uptime per wellbore, plus the boe conversion BR-05 confines to mart with
+      the factor as a dbt variable.
+    columns:
+      - name: wellbore_uid
+        tests: [not_null]
+      - name: prod_date
+        tests: [not_null]
+      - name: water_cut_fraction
+        description: NULL on a day with no liquid, rather than a misleading zero.
+      - name: uptime_fraction
+        description: On-stream hours over 24.
+
+  - name: mart_identity_coverage
+    description: >
+      **Grain: source_system, plus one TOTAL row.** BR-12 coverage. Counts the
+      unresolved identities rather than hiding them, so coverage can fall when a
+      delivery arrives with names nothing recognises.
+    columns:
+      - name: source_system
+        tests: [unique, not_null]
+      - name: identity_count
+        tests: [not_null]
+      - name: resolved_count
+        tests: [not_null]
+      - name: unresolved_count
+        tests: [not_null]
+      - name: is_total_row
+        tests:
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]

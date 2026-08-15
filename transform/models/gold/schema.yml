@@ -1,0 +1,159 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: >
+      **Grain: one row per calendar day.** Static, covering field life from
+      SPEC.md section 2 rather than the loaded range, so a join never silently
+      drops a fact for a day nobody has ingested yet.
+    columns:
+      - name: date_key
+        description: Integer key as YYYYMMDD.
+        tests: [unique, not_null]
+      - name: calendar_date
+        tests: [unique, not_null]
+      - name: month_key
+        tests: [not_null]
+
+  - name: dim_well
+    description: >
+      **Grain: one row per well_code.** SCD1 - a well's identity does not
+      change. Its wellbores and sidetracks do, and those are dim_wellbore.
+    columns:
+      - name: well_key
+        tests: [unique, not_null]
+      - name: well_code
+        tests: [unique, not_null]
+      - name: wellbore_count
+        tests: [not_null]
+
+  - name: dim_wellbore
+    description: >
+      **Grain: wellbore_uid x version_number.** SCD Type 2. A new version is
+      emitted when the tracked attributes change - well role and operator
+      label. Well role really changes here: 15/9-F-5 was converted from producer
+      to water injector, and the versions carry the dates it happened on.
+    columns:
+      - name: wellbore_key
+        description: Surrogate key, unique per version rather than per wellbore.
+        tests: [unique, not_null]
+      - name: wellbore_uid
+        tests: [not_null]
+      - name: version_number
+        tests: [not_null]
+      - name: valid_from
+        description: First date this version was asserted.
+        tests: [not_null]
+      - name: valid_to
+        description: NULL for the current version. No 9999-12-31 sentinel.
+      - name: is_current
+        tests:
+          - not_null
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]
+      - name: well_role
+        tests:
+          - accepted_values:
+              values: [PRODUCER, INJECTOR, UNKNOWN]
+
+  - name: dim_facility
+    description: >
+      **Grain: one row per facility_code.** SCD1. The only facility here is
+      MAERSK INSPIRER, whose ligature is the cheapest end-to-end check that
+      encoding survived ingestion, Parquet, Iceberg and both query engines.
+    columns:
+      - name: facility_key
+        tests: [unique, not_null]
+      - name: facility_code
+        tests: [unique, not_null]
+
+  - name: dim_curve
+    description: >
+      **Grain: one row per curve_mnemonic.** SCD1. has_mixed_units flags a
+      mnemonic logged in more than one unit, which any aggregate over that curve
+      has to group by.
+    columns:
+      - name: curve_key
+        tests: [unique, not_null]
+      - name: curve_mnemonic
+        tests: [unique, not_null]
+      - name: has_mixed_units
+        tests:
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]
+
+  - name: fct_production_daily
+    description: >
+      **Grain: wellbore_key x date_key.** One row per wellbore per production
+      day. The wellbore key is the SCD2 version current on that day, so a fact
+      joins to the wellbore as it was described at the time.
+    columns:
+      - name: date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+      - name: wellbore_key
+        tests: [not_null]
+      - name: oil_sm3
+        tests: [not_null]
+      - name: water_inj_sm3
+        tests: [not_null]
+      - name: prod_date
+        tests: [not_null]
+
+  - name: fct_production_monthly
+    description: >
+      **Grain: wellbore_key x month_key.** The operator's reported aggregates,
+      kept separate from the daily fact so BR-02 has two numbers to compare.
+    columns:
+      - name: month_key
+        tests: [not_null]
+      - name: wellbore_key
+        tests: [not_null]
+      - name: oil_sm3
+        tests: [not_null]
+
+  - name: fct_trajectory
+    description: >
+      **Grain: wellbore_key x md_m.** One row per survey station. northing and
+      easting are offsets from the well reference point, not projected
+      coordinates - the source declares no CRS to project into.
+    columns:
+      - name: md_m
+        tests: [not_null]
+      - name: wellbore_key
+        tests: [not_null]
+
+  - name: fct_log_sample
+    description: >
+      **Grain: wellbore_key x source_file x curve_key x depth_m.** SPEC.md gives
+      the grain as wellbore x run x depth x curve; this delivery has no run
+      identifier, so the source file stands in - one LAS file is one logging
+      pass. Sentinels are already NULL here (BR-08).
+    columns:
+      - name: curve_mnemonic
+        tests: [not_null]
+      - name: source_file
+        tests: [not_null]
+
+  - name: fct_simulation
+    description: >
+      **Grain: date_key x phase x row_label.** Field-level, not per wellbore:
+      the Eclipse print file reports field totals only, so there is no wellbore
+      to key on and the column is absent rather than fabricated.
+    columns:
+      - name: date_key
+        tests: [not_null]
+      - name: phase
+        tests:
+          - not_null
+          - accepted_values:
+              values: [OIL, WATER, GAS]

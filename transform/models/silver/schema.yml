@@ -1,0 +1,175 @@
+version: 2
+
+# Every model states its grain. A model without one is treated as unfinished:
+# without a grain nobody can tell whether a join fans out, and the mistake shows
+# up as a number that is quietly too large.
+
+models:
+  - name: silver_wellbore_identity
+    description: >
+      **Grain: source_system x source_identifier.** One row per identity string
+      any source used to name a wellbore. Unresolved identities are kept with a
+      NULL wellbore_uid rather than filtered, because BR-12 forbids dropping
+      them and mart_identity_coverage has to be able to count them.
+    columns:
+      - name: source_system
+        description: The source that wrote this identity.
+        tests: [not_null]
+      - name: source_identifier
+        description: The identity exactly as written, before normalisation.
+        tests: [not_null]
+      - name: wellbore_uid
+        description: Canonical wellbore, or NULL where nothing could resolve it.
+      - name: well_code
+        description: The parent well, split from the canonical name.
+      - name: is_resolved
+        tests:
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]
+
+  - name: silver_production_daily
+    description: >
+      **Grain: wellbore_uid x prod_date.** One row per wellbore per production
+      day, typed from bronze varchar, deduplicated by _row_hash. Production and
+      injection are separated (BR-03) and choke size normalised to percent
+      (BR-05).
+    columns:
+      - name: prod_date
+        description: The production day, decoded from the Excel serial.
+        tests: [not_null]
+      - name: oil_sm3
+        description: Oil volume in Sm3. Zero for injectors, per BR-03.
+        tests: [not_null]
+      - name: water_inj_sm3
+        description: Injected water in Sm3. Not production.
+        tests: [not_null]
+      - name: on_stream_hours
+        description: Hours flowing on the production day. BR-04 checks it against volume.
+      - name: choke_pct
+        description: Choke opening normalised to percent from the row's own unit (BR-05).
+      - name: is_injector
+        tests:
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]
+      - name: _row_hash
+        tests: [not_null]
+
+  - name: silver_production_monthly
+    description: >
+      **Grain: wellbore_uid x year_month.** The operator's reported monthly
+      figures, not a re-aggregation of the daily rows. BR-02 exists because the
+      two disagree.
+    columns:
+      - name: year_month
+        description: Month key as YYYYMM, from the sheet's separate Year and Month columns.
+        tests: [not_null]
+      - name: oil_sm3
+        tests: [not_null]
+      - name: prod_year
+        tests: [not_null]
+
+  - name: silver_production_quarantine
+    description: >
+      **Grain: wellbore_uid x prod_date x violation.** One row per BR-04 rule a
+      production day breaks, so a day breaking two rules appears twice. A
+      register of what to distrust, not a filter: the rows stay in
+      silver_production_daily.
+    columns:
+      - name: violation
+        tests:
+          - not_null
+          - accepted_values:
+              values: [volume_without_uptime, uptime_without_volume, uptime_out_of_range]
+      - name: violation_detail
+        tests: [not_null]
+
+  - name: silver_log_curve
+    description: >
+      **Grain: source_file x curve_mnemonic.** One row per curve per LAS file,
+      carrying that file's declared NULL sentinel so BR-08 can be applied
+      without reopening the file.
+    columns:
+      - name: curve_mnemonic
+        tests: [not_null]
+      - name: source_file
+        tests: [not_null]
+      - name: sentinel_declared
+        description: The sentinel as the file writes it. Four spellings occur across the delivery.
+
+  - name: silver_log_sample
+    description: >
+      **Grain: source_file x curve_mnemonic x index_value.** One row per reading.
+      BR-08 is applied here: curve_value is NULL wherever the raw value equalled
+      the sentinel that sample's own file declared.
+    columns:
+      - name: curve_mnemonic
+        tests: [not_null]
+      - name: source_file
+        tests: [not_null]
+      - name: was_sentinel
+        description: True where a reading was discarded as a sentinel, so the count stays available.
+        tests:
+          - accepted_values:
+              # quote:false, or the test compares a boolean column against the
+              # strings 'True'/'False' and Trino refuses the type mismatch.
+              quote: false
+              values: [true, false]
+
+  - name: silver_trajectory_station
+    description: >
+      **Grain: wellbore_uid x trajectory_uid x md_m.** One row per survey
+      station. source_crs is NULL throughout because the source declares an
+      azimuth reference, not a coordinate reference system.
+    columns:
+      - name: md_m
+        description: Measured depth in metres.
+        tests: [not_null]
+      - name: station_seq
+        tests: [not_null]
+
+  - name: silver_ddr_activity
+    description: >
+      **Grain: wellbore_uid x report_date x activity_seq.** One row per reported
+      activity in a daily drilling report. The cross-check BR-06 is measured
+      against in docs/rig-state-validation.md.
+
+      One exception to the grain, and it is in the data rather than in the code:
+      a report that declares no activities at all still produces one row, with
+      every activity column null. Two of the 15,854 rows are like this. Keeping
+      them means the report is countable; dropping them would lose two real
+      drilling days to make a not_null test pass. assert_ddr_null_activity_seq_
+      is_an_empty_report.sql is the narrower assertion that replaced it.
+    columns:
+      - name: report_date
+        tests: [not_null]
+
+  - name: silver_vsp_checkshot
+    description: >
+      **Grain: wellbore_uid x row_seq.** Depth/time pairs from the checkshot
+      survey - BR-09's independent truth, measured by a source that knows
+      nothing about the directional survey.
+    columns:
+      - name: tvd_m
+        tests: [not_null]
+      - name: two_way_time
+        description: Two-way time as written. The file declares no unit, so none is asserted.
+
+  - name: silver_simulation_result
+    description: >
+      **Grain: sim_date x row_label x phase.** Field-level, not per wellbore:
+      the print file reports field totals and attributing them to a wellbore
+      would be inventing the split.
+    columns:
+      - name: sim_date
+        tests: [not_null]
+      - name: phase
+        tests:
+          - not_null
+          - accepted_values:
+              values: [OIL, WATER, GAS]
