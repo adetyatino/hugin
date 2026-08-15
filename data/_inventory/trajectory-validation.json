@@ -1,0 +1,16 @@
+{
+  "survey_uid": "T-878157-1",
+  "stations": 80,
+  "tvd_vs_contractor_mm": 0.7189510147327383,
+  "max_dls_deg_30m": 4.894358815118967,
+  "comparable_points": 142,
+  "mean_diff_m": 32.45070949759766,
+  "stdev_m": 54.189066421096534,
+  "min_m": 2.1269231361425227,
+  "max_m": 219.8290650034587,
+  "max_pct_of_md": 6.870946583842555,
+  "checkshot_points": 191,
+  "checkshot_datum": "MSL",
+  "survey_td_m": 3211.7848896,
+  "checkshot_td_m": 3940.1
+}

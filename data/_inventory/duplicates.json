@@ -1,0 +1,192 @@
+{
+  "generated_at": "2026-08-14T16:10:33",
+  "comparison": "crc32 of sorted (root-stripped lowercased entry name, uncompressed size, entry CRC32) triples read from the zip central directory",
+  "group_count": 0,
+  "duplicate_archive_count": 0,
+  "policy": "duplicates are skipped during extraction and never deleted",
+  "groups": [],
+  "duplicate_archives": [],
+  "cross_archive_files": {
+    "method": "files sharing a basename and uncompressed size across two or more archives, compared by CRC32 from the central directory. A CRC mismatch is only reported as a conflict when the same pair of archives also agrees on at least 3 other shared files and on at least 50% of them; otherwise the shared name is treated as coincidence.",
+    "files_in_more_than_one_archive": 80,
+    "identical_everywhere": 42,
+    "same_name_same_size_different_crc": 2,
+    "coincidental_name_collisions": 36,
+    "coincidental_examples": [
+      "1.xml",
+      "100.xml",
+      "106.xml",
+      "113.xml",
+      "158.xml",
+      "163.xml",
+      "189.xml",
+      "201.xml",
+      "206.xml",
+      "225.xml"
+    ],
+    "conflicts": [
+      {
+        "basename": "vspni_computed_17.segy",
+        "size_bytes": 819792,
+        "archives": [
+          "15_9-F-15 A.zip",
+          "Volve_Seismic_VSP.zip"
+        ],
+        "copies": [
+          {
+            "archive": "15_9-F-15 A.zip",
+            "entry": "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_17.SEGY",
+            "crc32": "371aa27e"
+          },
+          {
+            "archive": "Volve_Seismic_VSP.zip",
+            "entry": "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_17.SEGY",
+            "crc32": "7c2d0690"
+          }
+        ]
+      },
+      {
+        "basename": "vspni_computed_26.segy",
+        "size_bytes": 872112,
+        "archives": [
+          "15_9-F-15 A.zip",
+          "Volve_Seismic_VSP.zip"
+        ],
+        "copies": [
+          {
+            "archive": "15_9-F-15 A.zip",
+            "entry": "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_26.SEGY",
+            "crc32": "9dbc1efc"
+          },
+          {
+            "archive": "Volve_Seismic_VSP.zip",
+            "entry": "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_26.SEGY",
+            "crc32": "10b116d5"
+          }
+        ]
+      }
+    ],
+    "overlapping_archive_pairs": [
+      {
+        "archives": [
+          "15_9-F-15 A.zip",
+          "Volve_Seismic_VSP.zip"
+        ],
+        "identical_files": 32,
+        "conflicting_files": 2
+      },
+      {
+        "archives": [
+          "Norway-Statoil-NO 15_$47$_9-F-12.zip",
+          "Norway-Statoil-NO 15_$47$_9-F-14.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 18
+      },
+      {
+        "archives": [
+          "Norway-Statoil-NO 15_$47$_9-F-14.zip",
+          "Norway-Statoil-NO 15_$47$_9-F-15.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 8
+      },
+      {
+        "archives": [
+          "15_9-F-15 A.zip",
+          "15_9-F-15 C.zip"
+        ],
+        "identical_files": 6,
+        "conflicting_files": 0
+      },
+      {
+        "archives": [
+          "Norway-StatoilHydro-15_$47$_9-F-15A.zip",
+          "Norway-StatoilHydro-15_$47$_9-F-15S.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 5
+      },
+      {
+        "archives": [
+          "Norway-Statoil-NO 15_$47$_9-F-12.zip",
+          "Norway-Statoil-NO 15_$47$_9-F-15.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 5
+      },
+      {
+        "archives": [
+          "15_9-F-15 A.zip",
+          "15_9-F-15 B.zip"
+        ],
+        "identical_files": 4,
+        "conflicting_files": 0
+      },
+      {
+        "archives": [
+          "15_9-F-15 B.zip",
+          "15_9-F-15 C.zip"
+        ],
+        "identical_files": 4,
+        "conflicting_files": 0
+      },
+      {
+        "archives": [
+          "15_9-F-15 B.zip",
+          "15_9-F-15.zip"
+        ],
+        "identical_files": 3,
+        "conflicting_files": 0
+      },
+      {
+        "archives": [
+          "Norway-Statoil-NO 15_$47$_9-F-15.zip",
+          "Norway-StatoilHydro-15_$47$_9-F-14.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 3
+      },
+      {
+        "archives": [
+          "Norway-Statoil-15_$47$_9-F-12.zip",
+          "Norway-StatoilHydro-15_$47$_9-F-15.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 2
+      },
+      {
+        "archives": [
+          "Norway-NA-15_$47$_9-F-9 A.zip",
+          "Norway-StatoilHydro-15_$47$_9-F-15S.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 2
+      },
+      {
+        "archives": [
+          "Norway-StatoilHydro-15_$47$_9-F-10.zip",
+          "Norway-StatoilHydro-15_$47$_9-F-15.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 2
+      },
+      {
+        "archives": [
+          "15_9-F-15 A.zip",
+          "15_9-F-15.zip"
+        ],
+        "identical_files": 2,
+        "conflicting_files": 0
+      },
+      {
+        "archives": [
+          "Norway-StatoilHydro-15_$47$_9-F-15A.zip",
+          "Norway-StatoilHydro-15_$47$_9-F-15B.zip"
+        ],
+        "identical_files": 0,
+        "conflicting_files": 2
+      }
+    ]
+  }
+}

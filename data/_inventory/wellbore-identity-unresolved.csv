@@ -1,0 +1,43 @@
+source_system,source_identifier,reason_category,reason,identity_kind,occurrences,operator_label,official_identifiers,first_seen_in
+ARCHIVE,Volve_Production_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_NAME,2,,,Volve_Production_data.zip
+ARCHIVE,Volve_Reports,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_NAME,3,,,Volve_Reports.zip
+ARCHIVE,Volve_Reservoir_Model-Eclipse_model,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_NAME,65,,,Volve_Reservoir_Model-Eclipse_model.zip
+ARCHIVE,Volve_Seismic_VSP,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_NAME,48,,,Volve_Seismic_VSP.zip
+ARCHIVE,Volve_Well_technical_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_NAME,5480,,,Volve_Well_technical_data.zip
+DDR,Well_technical_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,5277,,,DDR landing root
+DOC,Reports,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,3,,,DOC landing root
+DOC,VSP,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,2,,,DOC landing root
+DOC,Well_technical_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,20,,,DOC landing root
+LOG,08SCA0059,NOT_A_WELL_NAME,no_block_and_quadrant,LAS_API,13,StatoilHydro,,data/landing/log/15_9-F-15_A/03.PRESSURE/FM_PRESS_RAW_RUN6_MWD_1.LAS
+LOG,999999999999,NOT_A_WELL_NAME,no_block_and_quadrant,LAS_UWI,4,XXXXX,,data/landing/log/15_9-F-15/13.GEOCHEM/FI090048b_enclosures/FI090048b-2.las
+PROD,Production_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,2,,,PROD landing root
+SIM,F-1CW,NEEDS_ASSUMED_BLOCK,"simulator well name normalises to '15/9-F-1 CW' only after assuming block 15/9, and no source that names its own block knows that wellbore",ECLIPSE_WELSPECS,1,,,data/landing/sim/Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/F-1CW.INC
+SIM,I-F4G,NEEDS_ASSUMED_BLOCK,"simulator injector name normalises to '15/9-F-4 G' only after assuming block 15/9, and no source that names its own block knows that wellbore",ECLIPSE_WELSPECS,2,,,data/landing/sim/Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/MOD2013_VOLVE_HM_NTRANS_BASE-SHUT-DEF-F11-BHP-F12-3.SCH
+SIM,PIL-N,NEEDS_ASSUMED_BLOCK,simulator well name: no_well_number even after assuming block 15/9,ECLIPSE_WELSPECS,2,,,data/landing/sim/Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.DATA
+SIM,PIL-NW,NEEDS_ASSUMED_BLOCK,simulator well name: no_well_number even after assuming block 15/9,ECLIPSE_WELSPECS,2,,,data/landing/sim/Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.DATA
+SIM,Reservoir_Model-Eclipse_model,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,65,,,SIM landing root
+TRAJ,F-1 A  Northwest Injector 9 58 csg.shoe,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,1,,,Well_technical_data/WellWellbore
+TRAJ,F-1 A Northwest Injector 9 58 csg. shoe,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,1,,,Well_technical_data/WellWellbore
+TRAJ,F-1 A Nortwest Injector 9 58 csg. shoe,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,1,,,Well_technical_data/WellWellbore
+TRAJ,F-1 B 9 58 csg.shoe,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,F-1 C,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,F-1 North Upside Pilot 13 38 csg. shoe,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,F-1 North Upside Pilot 13 38 csg.shoe,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,1,,,Well_technical_data/WellWellbore
+TRAJ,F-12,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,F-15 C Top Reservoir Intersection,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,1,,,Well_technical_data/WellWellbore
+TRAJ,F-15 C Top Resevoir Intersection,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,1,,,Well_technical_data/WellWellbore
+TRAJ,F-15 D,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,4,,,Well_technical_data/WellWellbore
+TRAJ,Relief well 1049m West,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,Relief well 1352m South,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,Relief well 508m West,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,Relief well 966m North,NOT_A_WELL_NAME,no_block_and_quadrant,WELLBORE_FOLDER,2,,,Well_technical_data/WellWellbore
+TRAJ,Relief well location 1,NOT_A_WELL_NAME,no_block_and_quadrant,WELL_FOLDER,4,,,Well_technical_data/WellWellbore
+TRAJ,Relief well location 2,NOT_A_WELL_NAME,no_block_and_quadrant,WELL_FOLDER,3,,,Well_technical_data/WellWellbore
+TRAJ,Relief well location 3,NOT_A_WELL_NAME,no_block_and_quadrant,WELL_FOLDER,6,,,Well_technical_data/WellWellbore
+TRAJ,Relief well location 4,NOT_A_WELL_NAME,no_block_and_quadrant,WELL_FOLDER,5,,,Well_technical_data/WellWellbore
+TRAJ,Relief well location 5,NOT_A_WELL_NAME,no_block_and_quadrant,WELL_FOLDER,5,,,Well_technical_data/WellWellbore
+TRAJ,Well_technical_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,168,,,TRAJ landing root
+UNCLASSIFIED,Well_technical_data,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,15,,,UNCLASSIFIED landing root
+VSP,VSP,NOT_A_WELL_NAME,no_block_and_quadrant,ARCHIVE_ROOT_FOLDER,46,,,VSP landing root
+WITSML,"17 1/2"" Final QAQCd Data",SUFFIX_NOT_A_SIDETRACK,"unrecognised_suffix:"" FINAL QAQCD DATA",XML_NAME_WELLBORE,1,,B_NUMBER:B-782511,data/landing/witsml/Norway-StatoilHydro-15-9-F-14/2/_wellboreInfo/17 1_$47$_2_$34$_ Final QAQCd Data (B-782511)(NULL).xml
+WITSML,B-782511,IDENTIFIER_WITHOUT_A_NAME,no_block_and_quadrant,XML_UID_WELLBORE,1,,B_NUMBER:B-782511,data/landing/witsml/Norway-StatoilHydro-15-9-F-14/2/_wellboreInfo/17 1_$47$_2_$34$_ Final QAQCd Data (B-782511)(NULL).xml

@@ -1,0 +1,7 @@
+# BR-12 manual identity mappings. Read ahead of every rule; each row
+# appears in the crosswalk as match_method = MANUAL.
+#
+# One row per (source_system, source_identifier). Give a reason a
+# reviewer can check: what was consulted, not that it looked right.
+# Empty today - nothing has needed a human decision yet.
+source_system,source_identifier,wellbore_uid,reason

@@ -1,0 +1,4074 @@
+[
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:NO_15_9-F-15_B_KLOGH_NEW.las",
+    "data": {
+      "Name": "NO_15_9-F-15_B_KLOGH_NEW.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-15%20B",
+      "TopMeasuredDepth": 3370.5759,
+      "BottomMeasuredDepth": 3378.6531,
+      "Curves": [
+        {
+          "Mnemonic": "KLOGH_NEW",
+          "TopDepth": 3370.5759,
+          "BaseDepth": 3378.6531,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 54
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:NO_15_9-F-15_A_KLOGH_NEW.las",
+    "data": {
+      "Name": "NO_15_9-F-15_A_KLOGH_NEW.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-15%20A",
+      "TopMeasuredDepth": 3799.5774,
+      "BottomMeasuredDepth": 3896.8085,
+      "Curves": [
+        {
+          "Mnemonic": "KLOGH_NEW",
+          "TopDepth": 3799.5774,
+          "BaseDepth": 3896.8085,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 639
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:FI090048b-2.las",
+    "data": {
+      "Name": "FI090048b-2.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-15%20S",
+      "TopMeasuredDepth": 3939.0,
+      "BottomMeasuredDepth": 4089.0,
+      "Curves": [
+        {
+          "Mnemonic": "AMU1",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU10",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU100",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU101",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU102",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU103",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU104",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU105",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU106",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU107",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU108",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU109",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU11",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU110",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU111",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU112",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU113",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU114",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU115",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU116",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU117",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU118",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU119",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU12",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU120",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU121",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU122",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU123",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU124",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU125",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU126",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU127",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU128",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU129",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU13",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU130",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU131",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU132",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU133",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU134",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU135",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU136",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU137",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU138",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU139",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU14",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU140",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU141",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU142",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU143",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU144",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU145",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU146",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU147",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU148",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU149",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU15",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU150",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU151",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU152",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU153",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU154",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU155",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU156",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU157",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU158",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU159",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU16",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU160",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU161",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU162",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU163",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU164",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU165",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU166",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU167",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU168",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU169",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU17",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU170",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU171",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU172",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU173",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU174",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU175",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU176",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU177",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU178",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU179",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU18",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU180",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU19",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU2",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU20",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU21",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU22",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU23",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU24",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU25",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU26",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU27",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU28",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU29",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU3",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU30",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU31",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU32",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU33",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU34",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU35",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU36",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU37",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU38",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU39",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU4",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU40",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU41",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU42",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU43",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU44",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU45",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU46",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU47",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU48",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU49",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU5",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU50",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU51",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU52",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU53",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU54",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU55",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU56",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU57",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU58",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU59",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU6",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU60",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU61",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU62",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU63",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU64",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU65",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU66",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU67",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU68",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU69",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU7",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU70",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU71",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU72",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU73",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU74",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU75",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU76",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU77",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU78",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU79",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU8",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU80",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU81",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU82",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU83",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU84",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU85",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU86",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU87",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU88",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU89",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU9",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU90",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU91",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU92",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU93",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU94",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU95",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU96",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU97",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU98",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU99",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 9180
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:NO_15_9-F-12_KLOGH_NEW.las",
+    "data": {
+      "Name": "NO_15_9-F-12_KLOGH_NEW.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-12",
+      "TopMeasuredDepth": 3125.9871,
+      "BottomMeasuredDepth": 3280.2158,
+      "Curves": [
+        {
+          "Mnemonic": "KLOGH_NEW",
+          "TopDepth": 3125.9871,
+          "BaseDepth": 3280.2158,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 1013
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:NO_15_9-F-14_KLOGH_NEW.las",
+    "data": {
+      "Name": "NO_15_9-F-14_KLOGH_NEW.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-14",
+      "TopMeasuredDepth": 3000.4814,
+      "BottomMeasuredDepth": 3208.2026,
+      "Curves": [
+        {
+          "Mnemonic": "KLOGH_NEW",
+          "TopDepth": 3000.4814,
+          "BaseDepth": 3208.2026,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 1364
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:NO_15_9-F-15_C_KLOGH_NEW.las",
+    "data": {
+      "Name": "NO_15_9-F-15_C_KLOGH_NEW.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-15%20C",
+      "TopMeasuredDepth": 3125.3457,
+      "BottomMeasuredDepth": 3161.3122,
+      "Curves": [
+        {
+          "Mnemonic": "KLOGH_NEW",
+          "TopDepth": 3125.3457,
+          "BaseDepth": 3161.3122,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 237
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:FI090048b-2a.las",
+    "data": {
+      "Name": "FI090048b-2a.las",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-15%20S",
+      "TopMeasuredDepth": 3939.0,
+      "BottomMeasuredDepth": 4089.0,
+      "Curves": [
+        {
+          "Mnemonic": "AMU1",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU10",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU100",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU101",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU102",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU103",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU104",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU105",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU106",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU107",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU108",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU109",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU11",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU110",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU111",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU112",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU113",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU114",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU115",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU116",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU117",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU118",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU119",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU12",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU120",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU121",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU122",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU123",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU124",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU125",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU126",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU127",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU128",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU129",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU13",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU130",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU131",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU132",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU133",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU134",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU135",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU136",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU137",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU138",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU139",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU14",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU140",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU141",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU142",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU143",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU144",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU145",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU146",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU147",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU148",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU149",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU15",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU150",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU151",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU152",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU153",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU154",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU155",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU156",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU157",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU158",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU159",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU16",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU160",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU161",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU162",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU163",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU164",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU165",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU166",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU167",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU168",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU169",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU17",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU170",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU171",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU172",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU173",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU174",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU175",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU176",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU177",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU178",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU179",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU18",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU180",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU19",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU2",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU20",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU21",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU22",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU23",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU24",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU25",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU26",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU27",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU28",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU29",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU3",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU30",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU31",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU32",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU33",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU34",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU35",
+          "TopDepth": 3945.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU36",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU37",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU38",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU39",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU4",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4083.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU40",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU41",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU42",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU43",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU44",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU45",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU46",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU47",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU48",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU49",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU5",
+          "TopDepth": 3942.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU50",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU51",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU52",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU53",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU54",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU55",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU56",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU57",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU58",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU59",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4086.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU6",
+          "TopDepth": 3954.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU60",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU61",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU62",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU63",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU64",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU65",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU66",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU67",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU68",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU69",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU7",
+          "TopDepth": 3942.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU70",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU71",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU72",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU73",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU74",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU75",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU76",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU77",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU78",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU79",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU8",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU80",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU81",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU82",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU83",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU84",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU85",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU86",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU87",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU88",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU89",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU9",
+          "TopDepth": 3945.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU90",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU91",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU92",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU93",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU94",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU95",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU96",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU97",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU98",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "AMU99",
+          "TopDepth": 3939.0,
+          "BaseDepth": 4089.0,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPTH",
+        "SampleCount": 8844
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellLog:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellLog:WL_RAW_BHPR-GR-MECH_MWD_3.LAS",
+    "data": {
+      "Name": "WL_RAW_BHPR-GR-MECH_MWD_3.LAS",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-12",
+      "TopMeasuredDepth": 2480.0051,
+      "BottomMeasuredDepth": 2572.2073,
+      "Curves": [
+        {
+          "Mnemonic": "APRS_ARC",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 74
+          }
+        },
+        {
+          "Mnemonic": "ARC_GR_RT",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 83
+          }
+        },
+        {
+          "Mnemonic": "ATMP",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 74
+          }
+        },
+        {
+          "Mnemonic": "ECD_ARC",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 74
+          }
+        },
+        {
+          "Mnemonic": "ROP5",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 14
+          }
+        },
+        {
+          "Mnemonic": "RPM",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "SHK2_RT",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 109
+          }
+        },
+        {
+          "Mnemonic": "SHKRSK_RT",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 114
+          }
+        },
+        {
+          "Mnemonic": "SHK_ADN_RT",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 287
+          }
+        },
+        {
+          "Mnemonic": "SPPA",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "SWOB",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        },
+        {
+          "Mnemonic": "TFLO",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 2
+          }
+        },
+        {
+          "Mnemonic": "TQA",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 1
+          }
+        },
+        {
+          "Mnemonic": "TRPM_RT",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 111
+          }
+        },
+        {
+          "Mnemonic": "TVDE",
+          "TopDepth": 2480.0051,
+          "BaseDepth": 2572.2073,
+          "DepthUnit": "namespace:reference-data--UnitOfMeasure:m:",
+          "DepthCoding": "REGULAR",
+          "ExtensionProperties": {
+            "SentinelReadingCount": 0
+          }
+        }
+      ],
+      "ExtensionProperties": {
+        "IndexMnemonic": "DEPT",
+        "SampleCount": 9090
+      }
+    }
+  }
+]

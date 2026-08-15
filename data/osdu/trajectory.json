@@ -1,0 +1,122 @@
+[
+  {
+    "kind": "osdu:wks:work-product-component--WellboreTrajectory:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellboreTrajectory:T-680923-1",
+    "data": {
+      "Name": "T-680923-1",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-14",
+      "TopDepthMeasuredDepth": 3032.174784,
+      "BaseDepthMeasuredDepth": 3233.213244,
+      "SurveyReferenceIdentifier": "grid north",
+      "ActiveIndicator": true,
+      "AvailableTrajectoryStationProperties": [
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:MeasuredDepth:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:m:",
+          "Name": "md_m"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:TrueVerticalDepth:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:m:",
+          "Name": "tvd_m"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:Inclination:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:dega:",
+          "Name": "inclination_deg"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:Azimuth:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:dega:",
+          "Name": "azimuth_deg"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:DoglegSeverity:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:dega:",
+          "Name": "dogleg_severity_deg_per_m"
+        }
+      ],
+      "ExtensionProperties": {
+        "StationCount": 6
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:work-product-component--WellboreTrajectory:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:work-product-component--WellboreTrajectory:T-957090-1",
+    "data": {
+      "Name": "T-957090-1",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellboreID": "hugin:master-data--Wellbore:15%2F9-F-10",
+      "TopDepthMeasuredDepth": 0.0,
+      "BaseDepthMeasuredDepth": 4894.3500792,
+      "SurveyReferenceIdentifier": "grid north",
+      "ActiveIndicator": true,
+      "AvailableTrajectoryStationProperties": [
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:MeasuredDepth:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:m:",
+          "Name": "md_m"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:TrueVerticalDepth:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:m:",
+          "Name": "tvd_m"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:Inclination:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:dega:",
+          "Name": "inclination_deg"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:Azimuth:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:dega:",
+          "Name": "azimuth_deg"
+        },
+        {
+          "TrajectoryStationPropertyTypeID": "namespace:reference-data--TrajectoryStationPropertyType:DoglegSeverity:",
+          "StationPropertyUnitID": "namespace:reference-data--UnitOfMeasure:dega:",
+          "Name": "dogleg_severity_deg_per_m"
+        }
+      ],
+      "ExtensionProperties": {
+        "StationCount": 469
+      }
+    }
+  }
+]

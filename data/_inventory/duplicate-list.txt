@@ -1,0 +1,2 @@
+# Archives whose content is byte-identical to a canonical archive.
+# This script never deletes anything. Review before acting.

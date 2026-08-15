@@ -1,0 +1,143 @@
+{
+  "backfill_24_replay_months": {
+    "measured_at": "2026-08-13T09:43:50",
+    "start": "2008-06-01",
+    "end": "2010-05-31",
+    "replay_months": 24,
+    "first_pass_seconds": 26.2,
+    "second_pass_seconds": 23.9,
+    "target_seconds": 1500,
+    "met": true,
+    "idempotent": true,
+    "passes": [
+      {
+        "pass": 1,
+        "batch_id": "c6e4204b-5f38-4abd-ac8e-88d8358c0067",
+        "seconds": 26.2,
+        "rows_loaded": 3002,
+        "table_state": {
+          "bronze.prod_daily": {
+            "rows": 14859,
+            "distinct_row_hashes": 14859,
+            "row_hash_checksum": "31865679200524"
+          },
+          "bronze.prod_monthly": {
+            "rows": 497,
+            "distinct_row_hashes": 497,
+            "row_hash_checksum": "1049494698419"
+          }
+        }
+      },
+      {
+        "pass": 2,
+        "batch_id": "12d27c99-cad7-4045-a5dd-1ae3f03c088c",
+        "seconds": 23.9,
+        "rows_loaded": 3002,
+        "table_state": {
+          "bronze.prod_daily": {
+            "rows": 14859,
+            "distinct_row_hashes": 14859,
+            "row_hash_checksum": "31865679200524"
+          },
+          "bronze.prod_monthly": {
+            "rows": 497,
+            "distinct_row_hashes": 497,
+            "row_hash_checksum": "1049494698419"
+          }
+        }
+      }
+    ]
+  },
+  "ingest_one_replay_day": {
+    "measured_at": "2026-08-13T09:45:35",
+    "replay_date": "2014-04-07",
+    "seconds": 53.3,
+    "rows": 38,
+    "target_seconds": 60,
+    "met": true,
+    "per_reader": [
+      {
+        "table": "bronze.prod_daily",
+        "rows": 7,
+        "seconds": 9.23
+      },
+      {
+        "table": "bronze.prod_monthly",
+        "rows": 0,
+        "seconds": 2.02
+      },
+      {
+        "table": "bronze.ddr_activity",
+        "rows": 31,
+        "seconds": 6.43
+      },
+      {
+        "table": "bronze.trajectory_station",
+        "rows": 0,
+        "seconds": 5.1
+      },
+      {
+        "table": "bronze.witsml_message",
+        "rows": 0,
+        "seconds": 7.71
+      },
+      {
+        "table": "bronze.witsml_log_header",
+        "rows": 0,
+        "seconds": 3.36
+      },
+      {
+        "table": "bronze.witsml_log_data",
+        "rows": 0,
+        "seconds": 3.33
+      },
+      {
+        "table": "bronze.las_curve_header",
+        "rows": 0,
+        "seconds": 1.94
+      },
+      {
+        "table": "bronze.las_sample",
+        "rows": 0,
+        "seconds": 2.29
+      },
+      {
+        "table": "bronze.vsp_checkshot",
+        "rows": 0,
+        "seconds": 2.09
+      },
+      {
+        "table": "bronze.segy_header",
+        "rows": 0,
+        "seconds": 2.08
+      },
+      {
+        "table": "bronze.sim_summary",
+        "rows": 0,
+        "seconds": 5.43
+      },
+      {
+        "table": "bronze.geom_fault_record",
+        "rows": 0,
+        "seconds": 2.32
+      }
+    ]
+  },
+  "dbt_build": {
+    "measured_at": "2026-08-13T09:47:59",
+    "trino": {
+      "seconds": 47.7,
+      "target_seconds": 480,
+      "met": true,
+      "summary": "\u001b[0m02:47:19  Done. PASS=130 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=130",
+      "exit_code": 0
+    },
+    "duckdb": {
+      "seconds": 35.4,
+      "target_seconds": 90,
+      "met": true,
+      "summary": "\u001b[0m02:47:56  Done. PASS=130 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=130",
+      "exit_code": 0
+    }
+  }
+}

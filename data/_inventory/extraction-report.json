@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-08-14T16:13:18",
+  "preflight": {
+    "uncompressed_bytes_to_write": 6607358576,
+    "free_disk_bytes": 426950373376,
+    "sufficient_disk": true,
+    "long_paths_enabled": true,
+    "long_path_strategy": "LongPathsEnabled=1; \\\\?\\ prefix still applied above 240 chars",
+    "archives_skipped_as_duplicate": []
+  },
+  "stats": {
+    "archive_root_dirs_created": 5,
+    "archives_extracted": 24,
+    "dirs_created": 92,
+    "files_mapped": 10773,
+    "files_skipped_already_correct": 10773
+  },
+  "rejected_entries": [],
+  "source_readmes": [
+    {
+      "archive": "15_9-F-14.zip",
+      "entry": "15_9-F-14/10.PRODUCTION LOGS/PLT March 2009/read me.txt",
+      "copied_to": "docs/source-readme/15_9-F-14__10.PRODUCTION LOGS__PLT March 2009__read me.txt"
+    },
+    {
+      "archive": "Volve_Production_data.zip",
+      "entry": "Production_data/license.txt",
+      "copied_to": "docs/source-readme/Volve_Production_data__license.txt"
+    },
+    {
+      "archive": "Volve_Reports.zip",
+      "entry": "Reports/license.txt",
+      "copied_to": "docs/source-readme/Volve_Reports__license.txt"
+    },
+    {
+      "archive": "Volve_Reservoir_Model-Eclipse_model.zip",
+      "entry": "Reservoir_Model-Eclipse_model/license.txt",
+      "copied_to": "docs/source-readme/Volve_Reservoir_Model-Eclipse_model__license.txt"
+    },
+    {
+      "archive": "Volve_Reservoir_Model-Eclipse_model.zip",
+      "entry": "Reservoir_Model-Eclipse_model/ReadMe.txt",
+      "copied_to": "docs/source-readme/Volve_Reservoir_Model-Eclipse_model__ReadMe.txt"
+    },
+    {
+      "archive": "Volve_Seismic_VSP.zip",
+      "entry": "VSP/license.txt",
+      "copied_to": "docs/source-readme/Volve_Seismic_VSP__license.txt"
+    },
+    {
+      "archive": "Volve_Seismic_VSP.zip",
+      "entry": "VSP/README.txt",
+      "copied_to": "docs/source-readme/Volve_Seismic_VSP__README.txt"
+    },
+    {
+      "archive": "Volve_Well_technical_data.zip",
+      "entry": "Well_technical_data/EDT_EDM_read_me.txt",
+      "copied_to": "docs/source-readme/Volve_Well_technical_data__EDT_EDM_read_me.txt"
+    },
+    {
+      "archive": "Volve_Well_technical_data.zip",
+      "entry": "Well_technical_data/license.txt",
+      "copied_to": "docs/source-readme/Volve_Well_technical_data__license.txt"
+    }
+  ],
+  "orphans": [],
+  "orphans_pruned": [],
+  "orphans_unprunable": []
+}

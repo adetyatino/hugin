@@ -1,0 +1,984 @@
+[
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-1%20C",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-1 C",
+      "FacilityID": "15/9-F-1 C",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-1",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2014-04-07T00:00:00Z",
+          "TerminationDateTime": "2014-04-08T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "SidetrackCode": "C",
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-1%20C",
+    "version": 2,
+    "data": {
+      "FacilityName": "15/9-F-1 C",
+      "FacilityID": "15/9-F-1 C",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-1",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2014-04-08T00:00:00Z",
+          "TerminationDateTime": "2014-07-07T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "SidetrackCode": "C",
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-1%20C",
+    "version": 3,
+    "data": {
+      "FacilityName": "15/9-F-1 C",
+      "FacilityID": "15/9-F-1 C",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-1",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2014-07-07T00:00:00Z",
+          "TerminationDateTime": "2014-07-08T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "SidetrackCode": "C",
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-1%20C",
+    "version": 4,
+    "data": {
+      "FacilityName": "15/9-F-1 C",
+      "FacilityID": "15/9-F-1 C",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-1",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2014-07-08T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-1 C",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "SidetrackCode": "C",
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-14",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-14",
+      "FacilityID": "15/9-F-14",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-14",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2008-06-01T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "15/9-F-14 - Main Wellbore",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:TRAJ:"
+        },
+        {
+          "AliasName": "NO 15/9-F-14",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:WITSML:"
+        },
+        {
+          "AliasName": "15/9-F-14",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-14 H",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-14",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 5,
+        "SourceSystemCount": 4,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-11",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-11",
+      "FacilityID": "15/9-F-11",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-11",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2013-07-08T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-11",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-11",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-11 H",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-4",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-4",
+      "FacilityID": "15/9-F-4",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-4",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2008-06-01T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-4",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-4",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-4 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-12",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-12",
+      "FacilityID": "15/9-F-12",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-12",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2008-06-01T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-12",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:WITSML:"
+        },
+        {
+          "AliasName": "15/9-F-12",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-12",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "NO 15/9-F-12 H",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 4,
+        "SourceSystemCount": 3,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-15%20D",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-15 D",
+      "FacilityID": "15/9-F-15 D",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-15",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2014-01-12T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-15 D",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-15 D",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-15 D",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "SidetrackCode": "D",
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 1,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2008-06-01T00:00:00Z",
+          "TerminationDateTime": "2016-04-12T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 2,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2016-04-12T00:00:00Z",
+          "TerminationDateTime": "2016-05-04T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 3,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2016-05-04T00:00:00Z",
+          "TerminationDateTime": "2016-05-05T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 4,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2016-05-05T00:00:00Z",
+          "TerminationDateTime": "2016-07-26T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 5,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2016-07-26T00:00:00Z",
+          "TerminationDateTime": "2016-08-02T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 6,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2016-08-02T00:00:00Z",
+          "TerminationDateTime": "2016-09-06T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 7,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2016-09-06T00:00:00Z",
+          "TerminationDateTime": "2016-09-13T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 8,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Producing:",
+          "EffectiveDateTime": "2016-09-13T00:00:00Z",
+          "TerminationDateTime": "2016-09-18T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "PRODUCER"
+      }
+    }
+  },
+  {
+    "kind": "osdu:wks:master-data--Wellbore:1.0.0",
+    "acl": {
+      "owners": [
+        "data.default.owners@hugin.example.com"
+      ],
+      "viewers": [
+        "data.default.viewers@hugin.example.com"
+      ]
+    },
+    "legal": {
+      "legaltags": [
+        "hugin-placeholder-legal-tag"
+      ],
+      "otherRelevantDataCountries": [
+        "NO"
+      ],
+      "status": "compliant"
+    },
+    "id": "hugin:master-data--Wellbore:15%2F9-F-5",
+    "version": 9,
+    "data": {
+      "FacilityName": "15/9-F-5",
+      "FacilityID": "15/9-F-5",
+      "Source": "Equinor Volve open dataset, via HUGIN",
+      "WellID": "hugin:master-data--Well:15%2F9-F-5",
+      "FacilityStates": [
+        {
+          "FacilityStateTypeID": "namespace:reference-data--FacilityStateType:Injecting:",
+          "EffectiveDateTime": "2016-09-18T00:00:00Z"
+        }
+      ],
+      "NameAliases": [
+        {
+          "AliasName": "NO 15/9-F-5 AH",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        },
+        {
+          "AliasName": "NO 15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:DDR:"
+        },
+        {
+          "AliasName": "15/9-F-5",
+          "AliasNameTypeID": "namespace:reference-data--AliasNameType:PROD:"
+        }
+      ],
+      "ExtensionProperties": {
+        "IdentityVariantCount": 3,
+        "SourceSystemCount": 2,
+        "WellRole": "INJECTOR"
+      }
+    }
+  }
+]

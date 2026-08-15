@@ -1,0 +1,3887 @@
+{
+  "generated_at": "2026-08-14T16:10:33",
+  "archive_dir": "C:\\Apply Kerja\\DE\\volve",
+  "archive_dir_is_read_only_by_policy": true,
+  "archive_count": 24,
+  "non_zip_files_present": [
+    "HRS and Terms and conditions for license to data - Volve.pdf"
+  ],
+  "sibling_archive_folders": [
+    {
+      "path": "C:\\Apply Kerja\\DE\\data_volve_mentah",
+      "archive_count": 20,
+      "shared_with_this_folder": 20,
+      "only_here": [
+        "15_9-F-15 A.zip",
+        "15_9-F-15 C.zip",
+        "15_9-F-15.zip",
+        "Norway-Statoil-NO 15_$47$_9-F-15.zip"
+      ],
+      "only_there": []
+    }
+  ],
+  "source_codes": {
+    "PROD": "daily and monthly production per well (tabular)",
+    "WITSML": "drilling telemetry (WITSML XML, or CSV when already parsed)",
+    "LOG": "well logs (LAS and other log files)",
+    "TRAJ": "directional surveys (EDT/EDM/Compass)",
+    "DDR": "Daily Drilling Report (HTML, PDF, XML)",
+    "GEOM": "geophysical interpretation (fault polygons, horizons, picks, perforations)",
+    "SIM": "Eclipse simulation output (PRT and input decks)",
+    "VSP": "checkshot / vertical seismic profile",
+    "SEIS": "SEG-Y surface seismic",
+    "DOC": "other documents and reports"
+  },
+  "archives": [
+    {
+      "name": "15_9-F-11.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-11.zip",
+      "archive_size_bytes": 82595514,
+      "entry_count": 29,
+      "file_count": 29,
+      "dir_count": 0,
+      "implied_dir_count": 6,
+      "max_depth": 3,
+      "compressed_bytes": 82589468,
+      "uncompressed_bytes": 174578302,
+      "ext_counts": {
+        ".pdf": 14,
+        ".asc": 6,
+        ".dlis": 4,
+        ".cgm": 4,
+        ".las": 1
+      },
+      "sample_entries": [
+        "15_9-F-11/01.MUD_LOG/MUD_LOG_1.DLIS",
+        "15_9-F-11/01.MUD_LOG/MUD_LOG_1_INF_1.ASC",
+        "15_9-F-11/01.MUD_LOG/MUD_LOG_REPORT_1.PDF",
+        "15_9-F-11/02.LWD_EWL/MWD_REPORT_1.PDF",
+        "15_9-F-11/02.LWD_EWL/WL_RAW_BHPR-GR-MECH-REMP_MWD_1.DLIS",
+        "15_9-F-11/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_MD_MWD_PLOT_1.CGM",
+        "15_9-F-11/02.LWD_EWL/WL_RAW_BHPR-MECH_TIME_MWD_1.ASC",
+        "15_9-F-11/02.LWD_EWL/WL_RAW_BHPR-MECH_TIME_MWD_PLOT_1.CGM",
+        "15_9-F-11/02.LWD_EWL/WL_RAW_GR-REMP_MD_MWD_PLOT_1.CGM",
+        "15_9-F-11/04.COMPOSITE/WLC_COMPOSITE_1.DLIS",
+        "15_9-F-11/04.COMPOSITE/WLC_COMPOSITE_1_INF_1.PDF",
+        "15_9-F-11/04.COMPOSITE/WLC_PETROPHYSICAL_COMPOSITE_1.DLIS",
+        "15_9-F-11/05.PETROPHYSICAL INTERPRETATION/PETROPHYSICAL_REPORT_2.PDF",
+        "15_9-F-11/05.PETROPHYSICAL INTERPRETATION/WLC_PETRO_COMPUTED_1_INF_1.ASC",
+        "15_9-F-11/14.DIV.REPORTS/15-9-F-11_Completion log.pdf",
+        "15_9-F-11/14.DIV.REPORTS/15_9_F-11_F-11T2_F-11A_F-11B_CPI_report.pdf",
+        "15_9-F-11/14.DIV.REPORTS/COMPLETION_REPORT_1.PDF",
+        "15_9-F-11/14.DIV.REPORTS/COMPLETION_REPORT_2.PDF",
+        "15_9-F-11/14.DIV.REPORTS/DG3 Activity programme drilling_F-11_F-11 A_F-11 B.pdf",
+        "15_9-F-11/14.DIV.REPORTS/FWR_DRILLING_NO 15_9-F-11_15_9-F-11 T2_15_9-F-11 A_15_9-F-11 B_SIGNED.pdf"
+      ],
+      "longest_path_length": 98,
+      "longest_path": "15_9-F-11/14.DIV.REPORTS/15_9_F-11_F-11T2_F-11A_F-11B_EOWR mudlogging LWD directional drilling.pdf",
+      "utf8_flag_set_count": 29,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-11/",
+      "encoding_notes": [],
+      "content_checksum": "beff9af2-29",
+      "raw_name_checksum": "a3e849c7-29",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "51.7% of entries carry well-log extensions (15/29)",
+          "65.5% of entry names use the wireline/LWD naming convention (19/29)",
+          "secondary signal present: DOC scored 69"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 20,
+          "DOC": 9
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (2/3)",
+              "100.0% of entry names use the wireline/LWD naming convention (3/3)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 3,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "90.0% of entries carry well-log extensions (9/10)",
+              "100.0% of entry names use the wireline/LWD naming convention (10/10)"
+            ],
+            "file_count": 10,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (2/3)",
+              "66.7% of entry names use the wireline/LWD naming convention (2/3)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 3,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (9/9)",
+              "100.0% of entry names look like report/licence documents (9/9)"
+            ],
+            "file_count": 9,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-12.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-12.zip",
+      "archive_size_bytes": 275149452,
+      "entry_count": 250,
+      "file_count": 250,
+      "dir_count": 0,
+      "implied_dir_count": 17,
+      "max_depth": 4,
+      "compressed_bytes": 275092840,
+      "uncompressed_bytes": 624502604,
+      "ext_counts": {
+        ".dlis": 122,
+        ".pds": 45,
+        ".pdf": 31,
+        ".asc": 22,
+        ".las": 21,
+        ".lis": 3,
+        ".doc": 2,
+        ".xls": 1,
+        ".xlsx": 1,
+        ".zip": 1,
+        ".dex": 1
+      },
+      "sample_entries": [
+        "15_9-F-12/01.MUD_LOG/MUD_LOG_1.LIS",
+        "15_9-F-12/02.LWD_EWL/WLC_RAW_AC_MWD_1_INF_1.ASC",
+        "15_9-F-12/02.LWD_EWL/WL_RAW_AC_MWD_2.DLIS",
+        "15_9-F-12/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_1.LAS",
+        "15_9-F-12/02.LWD_EWL/WL_RAW_CAL-DEN-GR-NEU-REMP_MD_MWD_PLOT_2.PDS",
+        "15_9-F-12/02.LWD_EWL/WL_RAW_DEN-GR-NEU-REMP_TVD_MWD_PLOT_1.PDS",
+        "15_9-F-12/03.PRESSURE/Volve 15_9-F-12 FPWD Report.pdf",
+        "15_9-F-12/07.IMAGE/PETROPHYSICAL_REPORT_2.PDF",
+        "15_9-F-12/10.PRODUCTION LOGS/PLT March 2009/F-12_2009.zip",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-14_15.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-14_27.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-14_38.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-14_5.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-14_9.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2010-09-21_19.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2010-09-21_3.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2010-09-21_41.DLIS",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-GR-PLUG_2014-11-26_1-3_INF_1.ASC",
+        "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PLUG_2016-08-15_3.DLIS",
+        "15_9-F-12/11. INTEGRITY LOGS/Volve F-12 USIT-CBL 9 5_8 casing August 2016_Final.pdf"
+      ],
+      "longest_path_length": 86,
+      "longest_path": "15_9-F-12/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-14_1-57_INF_1.ASC",
+      "utf8_flag_set_count": 250,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-12/",
+      "encoding_notes": [],
+      "content_checksum": "54dd10c4-250",
+      "raw_name_checksum": "17bafda1-250",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "85.2% of entries carry well-log extensions (213/250)",
+          "84.8% of entry names use the wireline/LWD naming convention (212/250)"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 232,
+          "DOC": 18
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entries carry well-log extensions (1/7)",
+              "100.0% of entry names use the wireline/LWD naming convention (7/7)",
+              "secondary signal present: DOC scored 93"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "98.5% of entries carry well-log extensions (64/65)",
+              "100.0% of entry names use the wireline/LWD naming convention (65/65)"
+            ],
+            "file_count": 65,
+            "depth": 1
+          },
+          "03.PRESSURE": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries are documents (2/4)",
+              "25.0% of entry names look like report/licence documents (1/4)",
+              "secondary signal present: LOG scored 35"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "57.1% of entries carry well-log extensions (4/7)",
+              "57.1% of entry names use the wireline/LWD naming convention (4/7)",
+              "secondary signal present: DOC scored 36"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "07.IMAGE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "91.7% of entries carry well-log extensions (11/12)",
+              "secondary signal present: DOC scored 58"
+            ],
+            "file_count": 12,
+            "depth": 1
+          },
+          "10.PRODUCTION LOGS/PLT March 2009": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "10.PRODUCTION LOGS/PLT Sept 2010": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "75.0% of entries carry well-log extensions (3/4)",
+              "secondary signal present: DOC scored 25"
+            ],
+            "file_count": 4,
+            "depth": 2
+          },
+          "10.PRODUCTION LOGS/RAW": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "96.9% of entries carry well-log extensions (124/128)",
+              "100.0% of entry names use the wireline/LWD naming convention (128/128)"
+            ],
+            "file_count": 128,
+            "depth": 2
+          },
+          "11. INTEGRITY LOGS": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "60.0% of entries carry well-log extensions (3/5)",
+              "80.0% of entry names use the wireline/LWD naming convention (4/5)",
+              "secondary signal present: DOC scored 40"
+            ],
+            "file_count": 5,
+            "depth": 1
+          },
+          "12.BIOSTRAT": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries are documents (1/2)",
+              "50.0% of entry names look like report/licence documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "13.GEOCHEM": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (1/1)",
+              "100.0% of entry names look like report/licence documents (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (9/9)",
+              "100.0% of entry names look like report/licence documents (9/9)"
+            ],
+            "file_count": 9,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-14.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-14.zip",
+      "archive_size_bytes": 460759980,
+      "entry_count": 234,
+      "file_count": 234,
+      "dir_count": 0,
+      "implied_dir_count": 20,
+      "max_depth": 5,
+      "compressed_bytes": 460705688,
+      "uncompressed_bytes": 956387806,
+      "ext_counts": {
+        ".dlis": 104,
+        ".pds": 36,
+        ".pdf": 35,
+        ".las": 26,
+        ".asc": 19,
+        ".txt": 4,
+        ".lis": 3,
+        ".doc": 2,
+        ".xlsx": 1,
+        ".xls": 1,
+        ".gif": 1,
+        ".zip": 1,
+        ".dex": 1
+      },
+      "sample_entries": [
+        "15_9-F-14/01.MUD_LOG/MUD_LOG_1.LIS",
+        "15_9-F-14/02.LWD_EWL/WL_COMPUTED_CAL-ELEM-GR-NEU-REMP_MD_MWD_PLOT_2.PDF",
+        "15_9-F-14/02.LWD_EWL/WL_COMPUTED_DIP_MWD_3.ASC",
+        "15_9-F-14/02.LWD_EWL/WL_RAW_AAC_MWD_1-3_INF_1.ASC",
+        "15_9-F-14/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_1-3_INF_1.ASC",
+        "15_9-F-14/02.LWD_EWL/WL_RAW_DEN-GR-NEU-REMP_TVD_MWD_PLOT_1.PDS",
+        "15_9-F-14/03.PRESSURE/FM_PRESS_RAW_RUN5_MWD_1.LAS",
+        "15_9-F-14/03.PRESSURE/FM_PRESS_RAW_RUN5_MWD_7.LAS",
+        "15_9-F-14/05.PETROPHYSICAL INTERPRETATION/geomod09/NO_15_9-F-14_KLOGH_NEW.las",
+        "15_9-F-14/07.IMAGE/EcoScope_ImageInterpret/Presentation/Statoil_Volve_15_9F14_DipVectorPlot_detailed.pdf",
+        "15_9-F-14/10.PRODUCTION LOGS/PLT_RST Sept 2010/plot_volve-f14-rst-plt-0910.pdf",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-ELEM-FLOW-FLUDEN-GR_2010-09-12_18.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-ELEM-FLOW-FLUDEN-GR_2010-09-12_29.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-ELEM-FLOW-FLUDEN-GR_2010-09-12_4.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-09_11.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-09_22.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-09_33.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-09_43.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CAL-CCL-FLOW-GR_2009-03-09_6.DLIS",
+        "15_9-F-14/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PLUG_2010-09-19_PLOT_1.PDF"
+      ],
+      "longest_path_length": 109,
+      "longest_path": "15_9-F-14/07.IMAGE/EcoScope_ImageInterpret/Presentation/Statoil_Volve_15_9F14_Preliminaryjob_Presentation.pdf",
+      "utf8_flag_set_count": 234,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-14/",
+      "encoding_notes": [],
+      "content_checksum": "e82d3c2f-234",
+      "raw_name_checksum": "f4bb3abe-234",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "80.3% of entries carry well-log extensions (188/234)",
+          "76.9% of entry names use the wireline/LWD naming convention (180/234)"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 220,
+          "DOC": 14
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entries carry well-log extensions (1/7)",
+              "100.0% of entry names use the wireline/LWD naming convention (7/7)",
+              "secondary signal present: DOC scored 93"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "88.5% of entries carry well-log extensions (54/61)",
+              "100.0% of entry names use the wireline/LWD naming convention (61/61)"
+            ],
+            "file_count": 61,
+            "depth": 1
+          },
+          "03.PRESSURE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "93.8% of entries carry well-log extensions (15/16)"
+            ],
+            "file_count": 16,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (4/6)",
+              "50.0% of entry names use the wireline/LWD naming convention (3/6)",
+              "secondary signal present: GEOM scored 27"
+            ],
+            "file_count": 6,
+            "depth": 1
+          },
+          "07.IMAGE": {
+            "code": "LOG",
+            "confidence": "medium",
+            "evidence": [
+              "42.9% of entries carry well-log extensions (6/14)"
+            ],
+            "file_count": 14,
+            "depth": 1
+          },
+          "10.PRODUCTION LOGS/PLT March 2009": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "33.3% of entries are documents (1/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "10.PRODUCTION LOGS/PLT_RST Sept 2010": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "71.4% of entries carry well-log extensions (5/7)",
+              "secondary signal present: DOC scored 29"
+            ],
+            "file_count": 7,
+            "depth": 2
+          },
+          "10.PRODUCTION LOGS/RAW": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "96.2% of entries carry well-log extensions (101/105)",
+              "100.0% of entry names use the wireline/LWD naming convention (105/105)"
+            ],
+            "file_count": 105,
+            "depth": 2
+          },
+          "12.BIOSTRAT": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (9/9)",
+              "100.0% of entry names look like report/licence documents (9/9)"
+            ],
+            "file_count": 9,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-15 A.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-15 A.zip",
+      "archive_size_bytes": 340534671,
+      "entry_count": 129,
+      "file_count": 129,
+      "dir_count": 0,
+      "implied_dir_count": 10,
+      "max_depth": 4,
+      "compressed_bytes": 340508913,
+      "uncompressed_bytes": 505327122,
+      "ext_counts": {
+        ".pdf": 36,
+        ".segy": 34,
+        ".asc": 25,
+        ".las": 21,
+        ".dlis": 10,
+        ".lis": 1,
+        ".xlsx": 1,
+        ".dex": 1
+      },
+      "sample_entries": [
+        "15_9-F-15 A/01.MUD_LOG/MUD_LOG_1.LIS",
+        "15_9-F-15 A/01.MUD_LOG/MUD_LOG_TVD_PLOT_1.PDF",
+        "15_9-F-15 A/02.LWD_EWL/WLC_RAW_BHPR-GR-MECH_TIME_MWD_PLOT_1.PDF",
+        "15_9-F-15 A/02.LWD_EWL/WLC_RAW_GR-REMP_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 A/02.LWD_EWL/WL_RAW_AAC-CAL-DEN-GR-NEU-REMP_MD_MWD_PLOT_4.PDF",
+        "15_9-F-15 A/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_1-3_INF_1.ASC",
+        "15_9-F-15 A/02.LWD_EWL/WL_RAW_CAL-DEN-GR-NEU-REMP_MWD_1.DLIS",
+        "15_9-F-15 A/03.PRESSURE/FM_PRESS_MWD_REPORT_1.PDF",
+        "15_9-F-15 A/03.PRESSURE/FM_PRESS_RAW_RUN6_MWD_5.LAS",
+        "15_9-F-15 A/04.COMPOSITE/WLC_PETROPHYSICAL_COMPOSITE_2.DLIS",
+        "15_9-F-15 A/05.PETROPHYSICAL INTERPRETATION/geomod09/15_9-F-15 A Facies.xlsx",
+        "15_9-F-15 A/08.VSP_VELOCITY/TZV_TIME_CHECKSHOT_1.ASC",
+        "15_9-F-15 A/08.VSP_VELOCITY/VELOCITY_REPORT_1-4_INF_1.ASC",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_1-31_INF_2.ASC",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_15.SEGY",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_20.SEGY",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_27.SEGY",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_COMPUTED_4.SEGY",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSPNI_RAW_1-4_INF_2.ASC",
+        "15_9-F-15 A/08.VSP_VELOCITY/VSP_REPORT_2.PDF"
+      ],
+      "longest_path_length": 81,
+      "longest_path": "15_9-F-15 A/05.PETROPHYSICAL INTERPRETATION/geomod09/NO_15_9-F-15_A_KLOGH_NEW.las",
+      "utf8_flag_set_count": 129,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-15 A/",
+      "encoding_notes": [],
+      "content_checksum": "1e12bf6b-129",
+      "raw_name_checksum": "381e015d-129",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "44.2% of entries carry well-log extensions (57/129)",
+          "40.3% of entry names use the wireline/LWD naming convention (52/129)",
+          "secondary signal present: VSP scored 64"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG",
+          "VSP"
+        ],
+        "file_counts_by_code": {
+          "LOG": 66,
+          "VSP": 57,
+          "DOC": 6
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entries carry well-log extensions (1/7)",
+              "100.0% of entry names use the wireline/LWD naming convention (7/7)",
+              "secondary signal present: DOC scored 93"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (19/38)",
+              "100.0% of entry names use the wireline/LWD naming convention (38/38)",
+              "secondary signal present: DOC scored 51"
+            ],
+            "file_count": 38,
+            "depth": 1
+          },
+          "03.PRESSURE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "90.9% of entries carry well-log extensions (10/11)"
+            ],
+            "file_count": 11,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (4/6)",
+              "50.0% of entry names use the wireline/LWD naming convention (3/6)",
+              "secondary signal present: GEOM scored 27"
+            ],
+            "file_count": 6,
+            "depth": 1
+          },
+          "08.VSP_VELOCITY": {
+            "code": "VSP",
+            "confidence": "high",
+            "evidence": [
+              "59.6% SEG-Y entries, all under a VSP/checkshot path (34/57)",
+              "7.0% of entry names contain 'checkshot' (4/57)",
+              "secondary signal present: LOG scored 47"
+            ],
+            "file_count": 57,
+            "depth": 1
+          },
+          "12.BIOSTRAT": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (4/4)",
+              "100.0% of entry names look like report/licence documents (4/4)"
+            ],
+            "file_count": 4,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-15 B.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-15 B.zip",
+      "archive_size_bytes": 78731533,
+      "entry_count": 51,
+      "file_count": 51,
+      "dir_count": 0,
+      "implied_dir_count": 9,
+      "max_depth": 4,
+      "compressed_bytes": 78720933,
+      "uncompressed_bytes": 119395895,
+      "ext_counts": {
+        ".pdf": 17,
+        ".asc": 8,
+        ".pds": 8,
+        ".dlis": 7,
+        ".las": 7,
+        ".lis": 1,
+        ".xlsx": 1,
+        ".dex": 1,
+        ".lnk": 1
+      },
+      "sample_entries": [
+        "15_9-F-15 B/01.MUD_LOG/MUD_LOG_1.LIS",
+        "15_9-F-15 B/01.MUD_LOG/MUD_LOG_MD_PLOT_1.PDF",
+        "15_9-F-15 B/01.MUD_LOG/MUD_LOG_REPORT_1.PDF",
+        "15_9-F-15 B/02.LWD_EWL/LOGGING_SUMMARY_1.ASC",
+        "15_9-F-15 B/02.LWD_EWL/WL_COMPUTED_CAL-DEN-ELEM-GR-NEU-REMP_MD_MWD_PLOT_2.PDF",
+        "15_9-F-15 B/02.LWD_EWL/WL_COMPUTED_CAL-DEN-ELEM-GR-NEU-REMP_MWD_1_INF_1.ASC",
+        "15_9-F-15 B/02.LWD_EWL/WL_RAW_AAC_MD_MWD_PLOT_2.PDS",
+        "15_9-F-15 B/02.LWD_EWL/WL_RAW_AAC_MWD_1_INF_1.ASC",
+        "15_9-F-15 B/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_MWD_1_INF_1.ASC",
+        "15_9-F-15 B/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_1_INF_1.ASC",
+        "15_9-F-15 B/02.LWD_EWL/WL_RAW_CAL-DEN-GR-NEU-REMP_MD_MWD_PLOT_2.PDS",
+        "15_9-F-15 B/02.LWD_EWL/WL_RAW_CAL-DEN-GR-NEU-REMP_TVD_MWD_PLOT_1.PDS",
+        "15_9-F-15 B/03.PRESSURE/FM_PRESS_RAW_RUN11_MWD_1-4_INF_1.ASC",
+        "15_9-F-15 B/03.PRESSURE/FM_PRESS_RAW_RUN11_MWD_3.LAS",
+        "15_9-F-15 B/04.COMPOSITE/WLC_COMPOSITE_2.DLIS",
+        "15_9-F-15 B/04.COMPOSITE/WLC_PETROPHYSICAL_COMPOSITE_1_INF_2.PDF",
+        "15_9-F-15 B/05.PETROPHYSICAL INTERPRETATION/WLC_PETRO_COMPUTED_1_INF_1.ASC",
+        "15_9-F-15 B/05.PETROPHYSICAL INTERPRETATION/geomod09/15_9-F-15 B Facies.xlsx",
+        "15_9-F-15 B/12.BIOSTRAT/n1509F15ABC.pdf",
+        "15_9-F-15 B/14.DIV.REPORTS/15_9_F_15B_geological_summary.pdf"
+      ],
+      "longest_path_length": 86,
+      "longest_path": "15_9-F-15 B/14.DIV.REPORTS/FWR_DRILLING_15_9_F-15_F-15A_F-15B_F-15C.pdf - Shortcut.lnk",
+      "utf8_flag_set_count": 51,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-15 B/",
+      "encoding_notes": [],
+      "content_checksum": "ca9ab419-51",
+      "raw_name_checksum": "e4938206-51",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "60.8% of entries carry well-log extensions (31/51)",
+          "70.6% of entry names use the wireline/LWD naming convention (36/51)",
+          "secondary signal present: DOC scored 41"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 45,
+          "DOC": 6
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entries carry well-log extensions (1/7)",
+              "100.0% of entry names use the wireline/LWD naming convention (7/7)",
+              "secondary signal present: DOC scored 93"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "86.4% of entries carry well-log extensions (19/22)",
+              "100.0% of entry names use the wireline/LWD naming convention (22/22)"
+            ],
+            "file_count": 22,
+            "depth": 1
+          },
+          "03.PRESSURE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "83.3% of entries carry well-log extensions (5/6)",
+              "secondary signal present: DOC scored 25"
+            ],
+            "file_count": 6,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (4/6)",
+              "50.0% of entry names use the wireline/LWD naming convention (3/6)",
+              "secondary signal present: GEOM scored 27"
+            ],
+            "file_count": 6,
+            "depth": 1
+          },
+          "12.BIOSTRAT": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "75.0% of entries are documents (3/4)",
+              "100.0% of entry names look like report/licence documents (4/4)"
+            ],
+            "file_count": 4,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-15 C.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-15 C.zip",
+      "archive_size_bytes": 254819118,
+      "entry_count": 92,
+      "file_count": 92,
+      "dir_count": 0,
+      "implied_dir_count": 13,
+      "max_depth": 4,
+      "compressed_bytes": 254799274,
+      "uncompressed_bytes": 421486338,
+      "ext_counts": {
+        ".pdf": 37,
+        ".dlis": 24,
+        ".las": 15,
+        ".asc": 14,
+        ".lis": 1,
+        ".xlsx": 1
+      },
+      "sample_entries": [
+        "15_9-F-15 C/01.MUD_LOG/MUD_LOG_1.LIS",
+        "15_9-F-15 C/01.MUD_LOG/MUD_LOG_MD_PLOT_3.PDF",
+        "15_9-F-15 C/02.LWD_EWL/WLC_RAW_BHPR-GR-MECH_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 C/02.LWD_EWL/WLC_RAW_GR-REMP_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 C/02.LWD_EWL/WL_COMPUTED_CAL-DEN-ELEM-GR-NEU-REMP_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 C/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 C/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_1.LAS",
+        "15_9-F-15 C/02.LWD_EWL/WL_RAW_CAL-DEN-ELEM-GR-NEU-REMP_MWD_1_INF_1.ASC",
+        "15_9-F-15 C/02.LWD_EWL/WL_RAW_DEN-GR_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 C/03.PRESSURE/FM_PRESS_MWD_REPORT_1.PDF",
+        "15_9-F-15 C/03.PRESSURE/FM_PRESS_RAW_RUN14_MWD_4.LAS",
+        "15_9-F-15 C/03.PRESSURE/FM_PRESS_RAW_RUN14_MWD_8.LAS",
+        "15_9-F-15 C/05.PETROPHYSICAL INTERPRETATION/PETROPHYSICAL_REPORT_1.PDF",
+        "15_9-F-15 C/05.PETROPHYSICAL INTERPRETATION/geomod09/15_9-F-15 C Facies.xlsx",
+        "15_9-F-15 C/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PLUG_2013-10-07_3.DLIS",
+        "15_9-F-15 C/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL_2013-10-09_2.DLIS",
+        "15_9-F-15 C/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_PERF-CCL-GR_2009-03-05_1.DLIS",
+        "15_9-F-15 C/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_PERF-CCL-GR_2009-03-05_PLOT_1.PDF",
+        "15_9-F-15 C/11. INTEGRITY LOGS/RAW/WL_RAW_PROD_AC-AIMG-CCL-GR_2013-10-09_2.DLIS",
+        "15_9-F-15 C/14.DIV.REPORTS/15_9_F_15C_geological_summary.pdf"
+      ],
+      "longest_path_length": 86,
+      "longest_path": "15_9-F-15 C/11. INTEGRITY LOGS/RAW/WL_RAW_PROD_AC-AIMG-CCL-GR_2013-10-09_1-3_INF_1.ASC",
+      "utf8_flag_set_count": 92,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-15 C/",
+      "encoding_notes": [],
+      "content_checksum": "1177014f-92",
+      "raw_name_checksum": "f4066681-92",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "58.7% of entries carry well-log extensions (54/92)",
+          "77.2% of entry names use the wireline/LWD naming convention (71/92)",
+          "secondary signal present: DOC scored 45"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 87,
+          "DOC": 5
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entries carry well-log extensions (1/7)",
+              "100.0% of entry names use the wireline/LWD naming convention (7/7)",
+              "secondary signal present: DOC scored 93"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "52.9% of entries carry well-log extensions (18/34)",
+              "100.0% of entry names use the wireline/LWD naming convention (34/34)",
+              "secondary signal present: DOC scored 49"
+            ],
+            "file_count": 34,
+            "depth": 1
+          },
+          "03.PRESSURE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "90.0% of entries carry well-log extensions (9/10)"
+            ],
+            "file_count": 10,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (4/6)",
+              "50.0% of entry names use the wireline/LWD naming convention (3/6)",
+              "secondary signal present: GEOM scored 27"
+            ],
+            "file_count": 6,
+            "depth": 1
+          },
+          "10.PRODUCTION LOGS": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "83.3% of entries carry well-log extensions (15/18)",
+              "100.0% of entry names use the wireline/LWD naming convention (18/18)",
+              "secondary signal present: GEOM scored 49"
+            ],
+            "file_count": 18,
+            "depth": 1
+          },
+          "11. INTEGRITY LOGS": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries carry well-log extensions (4/6)",
+              "83.3% of entry names use the wireline/LWD naming convention (5/6)",
+              "secondary signal present: DOC scored 33"
+            ],
+            "file_count": 6,
+            "depth": 1
+          },
+          "12.BIOSTRAT": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (1/2)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (5/5)",
+              "100.0% of entry names look like report/licence documents (5/5)"
+            ],
+            "file_count": 5,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-15 D.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-15 D.zip",
+      "archive_size_bytes": 215904019,
+      "entry_count": 76,
+      "file_count": 76,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 4,
+      "compressed_bytes": 215887271,
+      "uncompressed_bytes": 720521177,
+      "ext_counts": {
+        ".pdf": 34,
+        ".dlis": 24,
+        ".asc": 13,
+        ".las": 2,
+        ".zip": 1,
+        ".xlsx": 1,
+        ".doc": 1
+      },
+      "sample_entries": [
+        "15_9-F-15 D/01.MUD_LOG/MUD_LOG_1.DLIS",
+        "15_9-F-15 D/01.MUD_LOG/MUD_LOG_MD_PLOT_2.pdf",
+        "15_9-F-15 D/01.MUD_LOG/MUD_LOG_TVD_PLOT_4.pdf",
+        "15_9-F-15 D/02.LWD_EWL/WLC_RAW_BHPR-CAL-DEN-GR-MECH-NEU-REMP_MWD_1_INF_1.ASC",
+        "15_9-F-15 D/02.LWD_EWL/WL_RAW_BHPR-CAL-DEN-GR-MECH-NEU-REMP_MWD_1.DLIS",
+        "15_9-F-15 D/02.LWD_EWL/WL_RAW_BHPR-GR-MECH-REMP_MWD_1.DLIS",
+        "15_9-F-15 D/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_MD_MWD_PLOT_2.PDF",
+        "15_9-F-15 D/02.LWD_EWL/WL_RAW_BHPR-MECH_TIME_MWD_3.ASC",
+        "15_9-F-15 D/02.LWD_EWL/WL_RAW_CAL-DEN-GR-NEU-REMP_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15 D/04.COMPOSITE/WLC_COMPOSITE_2_INF_1.PDF",
+        "15_9-F-15 D/05.PETROPHYSICAL INTERPRETATION/WLC_PETRO_COMPUTED_1_INF_1.ASC",
+        "15_9-F-15 D/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-GR-PERF_2014-01-07_1-2_INF_1.ASC",
+        "15_9-F-15 D/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PERF_2014-01-07_1-12_INF_1.ASC",
+        "15_9-F-15 D/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PERF_2014-01-07_12.DLIS",
+        "15_9-F-15 D/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PERF_2014-01-07_5.DLIS",
+        "15_9-F-15 D/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PERF_2014-01-07_9.DLIS",
+        "15_9-F-15 D/10.PRODUCTION LOGS/RAW/WL_RAW_PROD_CCL-PERF_2016-07-13_2.DLIS",
+        "15_9-F-15 D/14.DIV.REPORTS/15-9-F-15 D_Geosteering decision log.xlsx",
+        "15_9-F-15 D/14.DIV.REPORTS/159F15D_CPI_report.pdf",
+        "15_9-F-15 D/14.DIV.REPORTS/COMPLETION_REPORT_2.PDF"
+      ],
+      "longest_path_length": 88,
+      "longest_path": "15_9-F-15 D/14.DIV.REPORTS/15-9-F-15 D_EOWR_Logging mudlogging direction drilling_BH.pdf",
+      "utf8_flag_set_count": 76,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-15 D/",
+      "encoding_notes": [],
+      "content_checksum": "df6d3b51-76",
+      "raw_name_checksum": "8f3748a3-76",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "51.3% of entries carry well-log extensions (39/76)",
+          "80.3% of entry names use the wireline/LWD naming convention (61/76)",
+          "secondary signal present: DOC scored 57"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 62,
+          "DOC": 14
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "25.0% of entries carry well-log extensions (2/8)",
+              "100.0% of entry names use the wireline/LWD naming convention (8/8)",
+              "secondary signal present: DOC scored 81"
+            ],
+            "file_count": 8,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "52.0% of entries carry well-log extensions (13/25)",
+              "100.0% of entry names use the wireline/LWD naming convention (25/25)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 25,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "75.0% of entries carry well-log extensions (3/4)",
+              "75.0% of entry names use the wireline/LWD naming convention (3/4)",
+              "secondary signal present: DOC scored 38"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "10.PRODUCTION LOGS": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "90.5% of entries carry well-log extensions (19/21)",
+              "100.0% of entry names use the wireline/LWD naming convention (21/21)",
+              "secondary signal present: GEOM scored 110"
+            ],
+            "file_count": 21,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "85.7% of entries are documents (12/14)",
+              "100.0% of entry names look like report/licence documents (14/14)"
+            ],
+            "file_count": 14,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "15_9-F-15.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\15_9-F-15.zip",
+      "archive_size_bytes": 495176861,
+      "entry_count": 109,
+      "file_count": 109,
+      "dir_count": 0,
+      "implied_dir_count": 11,
+      "max_depth": 4,
+      "compressed_bytes": 495154555,
+      "uncompressed_bytes": 646344258,
+      "ext_counts": {
+        ".pdf": 47,
+        ".asc": 16,
+        ".las": 13,
+        ".dlis": 12,
+        ".xls": 8,
+        ".pds": 6,
+        ".txt": 2,
+        ".lis": 1,
+        ".xlsx": 1,
+        ".dex": 1,
+        ".doc": 1,
+        ".lnk": 1
+      },
+      "sample_entries": [
+        "15_9-F-15/01.MUD_LOG/MUD_LOG_1.LIS",
+        "15_9-F-15/01.MUD_LOG/MUD_LOG_REPORT_1.PDF",
+        "15_9-F-15/02.LWD_EWL/WLC_COMPUTED_CAL-DEN-ELEM-GR-NEU-REMP_MD_MWD_PLOT_2.PDF",
+        "15_9-F-15/02.LWD_EWL/WLC_RAW_BHPR-GR-MECH_MWD_1.LAS",
+        "15_9-F-15/02.LWD_EWL/WLC_RAW_CAL-DEN-GR-NEU-REMP_MD_MWD_PLOT_1.PDF",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_AAC-DEN-GR-NEU-REMP_MD_MWD_PLOT_4.PDF",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_MD_MWD_PLOT_2.PDF",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_1-3_INF_1.ASC",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_BHPR-GR-MECH_TIME_MWD_4_INF_1.ASC",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_CAL-DEN-ELEM-GR-NEU-REMP_MWD_2.DLIS",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_GR-REMP_TVD_MWD_PLOT_1.PDF",
+        "15_9-F-15/02.LWD_EWL/WL_RAW_GR_MWD_1.DLIS",
+        "15_9-F-15/03.PRESSURE/FM_PRESS_MWD_REPORT_1.PDF",
+        "15_9-F-15/04.COMPOSITE/WLC_COMPOSITE_2_INF_1.PDF",
+        "15_9-F-15/05.PETROPHYSICAL INTERPRETATION/WLC_PETRO_COMPUTED_INPUT_1.DLIS",
+        "15_9-F-15/13.GEOCHEM/FI090048a_enclosures/FI090048a-1.txt",
+        "15_9-F-15/13.GEOCHEM/FI090048b_enclosures/FI090048b-180.xls",
+        "15_9-F-15/13.GEOCHEM/FI090048b_enclosures/FI090048b-2a.las",
+        "15_9-F-15/14.DIV.REPORTS/15-9-F-15_s_nr_001_StethoScope675_Volve.pdf",
+        "15_9-F-15/14.DIV.REPORTS/15_9_F_15_Recommendation_to_Drill.pdf"
+      ],
+      "longest_path_length": 116,
+      "longest_path": "15_9-F-15/13.GEOCHEM/A Stratigraphic Reconstruction of Bulk Volatile Chemistry from Fluid Inclusions_FI090048b-1.pdf",
+      "utf8_flag_set_count": 109,
+      "utf8_flag_all_set": true,
+      "root_prefix": "15_9-F-15/",
+      "encoding_notes": [],
+      "content_checksum": "9ec08c7e-109",
+      "raw_name_checksum": "fdd66be2-109",
+      "classification": {
+        "archive_code": "LOG",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "44.0% of entries carry well-log extensions (48/109)",
+          "66.1% of entry names use the wireline/LWD naming convention (72/109)",
+          "secondary signal present: DOC scored 53"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "LOG"
+        ],
+        "file_counts_by_code": {
+          "LOG": 96,
+          "DOC": 13
+        },
+        "per_subdir": {
+          "01.MUD_LOG": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entries carry well-log extensions (1/7)",
+              "100.0% of entry names use the wireline/LWD naming convention (7/7)",
+              "secondary signal present: DOC scored 93"
+            ],
+            "file_count": 7,
+            "depth": 1
+          },
+          "02.LWD_EWL": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "56.9% of entries carry well-log extensions (33/58)",
+              "100.0% of entry names use the wireline/LWD naming convention (58/58)",
+              "secondary signal present: DOC scored 44"
+            ],
+            "file_count": 58,
+            "depth": 1
+          },
+          "03.PRESSURE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "75.0% of entries carry well-log extensions (3/4)",
+              "secondary signal present: DOC scored 38"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "04.COMPOSITE": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entries carry well-log extensions (2/4)",
+              "100.0% of entry names use the wireline/LWD naming convention (4/4)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 4,
+            "depth": 1
+          },
+          "05.PETROPHYSICAL INTERPRETATION": {
+            "code": "LOG",
+            "confidence": "high",
+            "evidence": [
+              "60.0% of entries carry well-log extensions (3/5)",
+              "60.0% of entry names use the wireline/LWD naming convention (3/5)",
+              "secondary signal present: GEOM scored 30"
+            ],
+            "file_count": 5,
+            "depth": 1
+          },
+          "12.BIOSTRAT": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "13.GEOCHEM": {
+            "code": "LOG",
+            "confidence": "medium",
+            "evidence": [
+              "33.3% of entries carry well-log extensions (6/18)",
+              "secondary signal present: DOC scored 25"
+            ],
+            "file_count": 18,
+            "depth": 1
+          },
+          "14.DIV.REPORTS": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "90.9% of entries are documents (10/11)",
+              "100.0% of entry names look like report/licence documents (11/11)"
+            ],
+            "file_count": 11,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-NA-15_$47$_9-F-9 A.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-NA-15_$47$_9-F-9 A.zip",
+      "archive_size_bytes": 11895,
+      "entry_count": 8,
+      "file_count": 8,
+      "dir_count": 0,
+      "implied_dir_count": 7,
+      "max_depth": 5,
+      "compressed_bytes": 10243,
+      "uncompressed_bytes": 95031,
+      "ext_counts": {
+        ".xml": 4,
+        ".txt": 4
+      },
+      "sample_entries": [
+        "Norway-NA-15_$47$_9-F-9 A/1/_wellboreInfo/15_$47$_9-F-9 A - Main Wellbore (B-986464)(NULL).xml",
+        "Norway-NA-15_$47$_9-F-9 A/1/log/1/MetaFileInfo.txt",
+        "Norway-NA-15_$47$_9-F-9 A/1/log/MetaFileInfo.txt",
+        "Norway-NA-15_$47$_9-F-9 A/1/trajectory/1.xml",
+        "Norway-NA-15_$47$_9-F-9 A/1/trajectory/2.xml",
+        "Norway-NA-15_$47$_9-F-9 A/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-NA-15_$47$_9-F-9 A/MetaFileInfo.txt",
+        "Norway-NA-15_$47$_9-F-9 A/_wellInfo/15_$47$_9-F-9 A (W-986464).xml"
+      ],
+      "longest_path_length": 94,
+      "longest_path": "Norway-NA-15_$47$_9-F-9 A/1/_wellboreInfo/15_$47$_9-F-9 A - Main Wellbore (B-986464)(NULL).xml",
+      "utf8_flag_set_count": 8,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-NA-15_$47$_9-F-9 A/",
+      "encoding_notes": [],
+      "content_checksum": "acd4e27f-8",
+      "raw_name_checksum": "15ed2327-8",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "50.0% of entries sit in WITSML object subtrees (4/8)",
+          "50.0% of entries are WITSML export manifests (4/8)",
+          "secondary signal present: TRAJ scored 62"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 5,
+          "TRAJ": 3
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "100.0% of entries are WITSML export manifests (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (3/3)",
+              "secondary signal present: WITSML scored 48"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-Statoil-15_$47$_9-F-12.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-Statoil-15_$47$_9-F-12.zip",
+      "archive_size_bytes": 105737,
+      "entry_count": 15,
+      "file_count": 15,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 5,
+      "compressed_bytes": 102697,
+      "uncompressed_bytes": 1569704,
+      "ext_counts": {
+        ".xml": 10,
+        ".txt": 5
+      },
+      "sample_entries": [
+        "Norway-Statoil-15_$47$_9-F-12/1/_wellboreInfo/15_$47$_9-F-12 - Main Wellbore (B-353084)(NULL).xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/log/1/MetaFileInfo.txt",
+        "Norway-Statoil-15_$47$_9-F-12/1/log/2/MetaFileInfo.txt",
+        "Norway-Statoil-15_$47$_9-F-12/1/log/MetaFileInfo.txt",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/1.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/2.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/3.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/4.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/5.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/6.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/7.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/8.xml",
+        "Norway-Statoil-15_$47$_9-F-12/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-Statoil-15_$47$_9-F-12/MetaFileInfo.txt",
+        "Norway-Statoil-15_$47$_9-F-12/_wellInfo/15_$47$_9-F-12 (W-353084).xml"
+      ],
+      "longest_path_length": 97,
+      "longest_path": "Norway-Statoil-15_$47$_9-F-12/1/_wellboreInfo/15_$47$_9-F-12 - Main Wellbore (B-353084)(NULL).xml",
+      "utf8_flag_set_count": 15,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-Statoil-15_$47$_9-F-12/",
+      "encoding_notes": [],
+      "content_checksum": "09c18ed4-15",
+      "raw_name_checksum": "d3b2dbd1-15",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "33.3% of entries sit in WITSML object subtrees (5/15)",
+          "33.3% of entries are WITSML export manifests (5/15)",
+          "66.7% of entries are XML (10/15)",
+          "secondary signal present: TRAJ scored 85"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "TRAJ": 9,
+          "WITSML": 6
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (9/9)",
+              "secondary signal present: WITSML scored 26"
+            ],
+            "file_count": 9,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-Statoil-NO 15_$47$_9-F-12.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-Statoil-NO 15_$47$_9-F-12.zip",
+      "archive_size_bytes": 511522,
+      "entry_count": 694,
+      "file_count": 694,
+      "dir_count": 0,
+      "implied_dir_count": 12,
+      "max_depth": 5,
+      "compressed_bytes": 378150,
+      "uncompressed_bytes": 975393,
+      "ext_counts": {
+        ".xml": 685,
+        ".txt": 9
+      },
+      "sample_entries": [
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/_wellboreInfo/NO 15_$47$_9-F-12 (97debbde-fcef-4ad2-ad00-6205300609fa)(NULL).xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/117.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/149.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/180.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/210.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/242.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/274.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/304.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/336.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/368.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/4.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/43.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/461.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/493.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/523.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/555.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/587.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/617.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/649.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-12/1/message/87.xml"
+      ],
+      "longest_path_length": 115,
+      "longest_path": "Norway-Statoil-NO 15_$47$_9-F-12/1/_wellboreInfo/NO 15_$47$_9-F-12 (97debbde-fcef-4ad2-ad00-6205300609fa)(NULL).xml",
+      "utf8_flag_set_count": 694,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-Statoil-NO 15_$47$_9-F-12/",
+      "encoding_notes": [],
+      "content_checksum": "e9af858a-694",
+      "raw_name_checksum": "627617cd-694",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "99.6% of entries sit in WITSML object subtrees (691/694)",
+          "1.3% of entries are WITSML export manifests (9/694)",
+          "98.7% of entries are XML (685/694)",
+          "secondary signal present: TRAJ scored 25"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 692,
+          "TRAJ": 2
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/bhaRun": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (11/11)",
+              "9.1% of entries are WITSML export manifests (1/11)",
+              "90.9% of entries are XML (10/11)"
+            ],
+            "file_count": 11,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "100.0% of entries are WITSML export manifests (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/message": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (660/660)",
+              "0.2% of entries are WITSML export manifests (1/660)",
+              "99.8% of entries are XML (659/660)"
+            ],
+            "file_count": 660,
+            "depth": 2
+          },
+          "1/rig": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "50.0% of entries are WITSML export manifests (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (2/2)",
+              "secondary signal present: WITSML scored 60"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/tubular": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (10/10)",
+              "10.0% of entries are WITSML export manifests (1/10)",
+              "90.0% of entries are XML (9/10)"
+            ],
+            "file_count": 10,
+            "depth": 2
+          },
+          "1/wbGeometry": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (4/4)",
+              "25.0% of entries are WITSML export manifests (1/4)",
+              "75.0% of entries are XML (3/4)"
+            ],
+            "file_count": 4,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-Statoil-NO 15_$47$_9-F-14.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-Statoil-NO 15_$47$_9-F-14.zip",
+      "archive_size_bytes": 433673,
+      "entry_count": 609,
+      "file_count": 609,
+      "dir_count": 0,
+      "implied_dir_count": 13,
+      "max_depth": 5,
+      "compressed_bytes": 316581,
+      "uncompressed_bytes": 720547,
+      "ext_counts": {
+        ".xml": 599,
+        ".txt": 10
+      },
+      "sample_entries": [
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/_wellboreInfo/NO 15_$47$_9-F-14 (05fb8aee-3461-4071-8ac5-975b9bb5cc4f)(NULL).xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/115.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/142.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/170.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/198.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/225.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/252.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/280.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/307.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/335.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/362.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/39.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/417.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/444.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/472.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/5.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/527.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/554.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/6.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-14/1/message/87.xml"
+      ],
+      "longest_path_length": 115,
+      "longest_path": "Norway-Statoil-NO 15_$47$_9-F-14/1/_wellboreInfo/NO 15_$47$_9-F-14 (05fb8aee-3461-4071-8ac5-975b9bb5cc4f)(NULL).xml",
+      "utf8_flag_set_count": 609,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-Statoil-NO 15_$47$_9-F-14/",
+      "encoding_notes": [],
+      "content_checksum": "3e1a4935-609",
+      "raw_name_checksum": "837c214d-609",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "99.5% of entries sit in WITSML object subtrees (606/609)",
+          "1.6% of entries are WITSML export manifests (10/609)",
+          "98.4% of entries are XML (599/609)",
+          "secondary signal present: TRAJ scored 25"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 607,
+          "TRAJ": 2
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/bhaRun": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (8/8)",
+              "12.5% of entries are WITSML export manifests (1/8)",
+              "87.5% of entries are XML (7/8)"
+            ],
+            "file_count": 8,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/message": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (581/581)",
+              "0.2% of entries are WITSML export manifests (1/581)",
+              "99.8% of entries are XML (580/581)"
+            ],
+            "file_count": 581,
+            "depth": 2
+          },
+          "1/rig": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "50.0% of entries are WITSML export manifests (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (2/2)",
+              "secondary signal present: WITSML scored 60"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/tubular": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (7/7)",
+              "14.3% of entries are WITSML export manifests (1/7)",
+              "85.7% of entries are XML (6/7)"
+            ],
+            "file_count": 7,
+            "depth": 2
+          },
+          "1/wbGeometry": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "33.3% of entries are WITSML export manifests (1/3)",
+              "66.7% of entries are XML (2/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-Statoil-NO 15_$47$_9-F-15.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-Statoil-NO 15_$47$_9-F-15.zip",
+      "archive_size_bytes": 2149200,
+      "entry_count": 2817,
+      "file_count": 2817,
+      "dir_count": 0,
+      "implied_dir_count": 25,
+      "max_depth": 5,
+      "compressed_bytes": 1605872,
+      "uncompressed_bytes": 3893745,
+      "ext_counts": {
+        ".xml": 2797,
+        ".txt": 20
+      },
+      "sample_entries": [
+        "Norway-Statoil-NO 15_$47$_9-F-15/1/_wellboreInfo/NO 15_$47$_9-F-15 C (9ab4989d-11c6-4ac1-83c1-e74362292dd8)(NULL).xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/1/message/208.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/1/message/335.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/1/message/462.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1125.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1252.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1379.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1505.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1632.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/176.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/1887.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/2012.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/214.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/282.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/409.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/536.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/663.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/790.xml",
+        "Norway-Statoil-NO 15_$47$_9-F-15/2/message/917.xml"
+      ],
+      "longest_path_length": 117,
+      "longest_path": "Norway-Statoil-NO 15_$47$_9-F-15/1/_wellboreInfo/NO 15_$47$_9-F-15 C (9ab4989d-11c6-4ac1-83c1-e74362292dd8)(NULL).xml",
+      "utf8_flag_set_count": 2817,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-Statoil-NO 15_$47$_9-F-15/",
+      "encoding_notes": [],
+      "content_checksum": "17b79231-2817",
+      "raw_name_checksum": "79152fe9-2817",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "99.8% of entries sit in WITSML object subtrees (2812/2817)",
+          "0.7% of entries are WITSML export manifests (20/2817)",
+          "99.3% of entries are XML (2797/2817)",
+          "secondary signal present: TRAJ scored 25"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 2813,
+          "TRAJ": 4
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/bhaRun": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (15/15)",
+              "6.7% of entries are WITSML export manifests (1/15)",
+              "93.3% of entries are XML (14/15)"
+            ],
+            "file_count": 15,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/message": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (502/502)",
+              "0.2% of entries are WITSML export manifests (1/502)",
+              "99.8% of entries are XML (501/502)"
+            ],
+            "file_count": 502,
+            "depth": 2
+          },
+          "1/rig": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "50.0% of entries are WITSML export manifests (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (2/2)",
+              "secondary signal present: WITSML scored 60"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "1/tubular": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (15/15)",
+              "6.7% of entries are WITSML export manifests (1/15)",
+              "93.3% of entries are XML (14/15)"
+            ],
+            "file_count": 15,
+            "depth": 2
+          },
+          "1/wbGeometry": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "50.0% of entries are WITSML export manifests (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "2/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "2/bhaRun": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (17/17)",
+              "5.9% of entries are WITSML export manifests (1/17)",
+              "94.1% of entries are XML (16/17)"
+            ],
+            "file_count": 17,
+            "depth": 2
+          },
+          "2/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "2/message": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2205/2205)",
+              "0.0% of entries are WITSML export manifests (1/2205)",
+              "100.0% of entries are XML (2204/2205)"
+            ],
+            "file_count": 2205,
+            "depth": 2
+          },
+          "2/mudLog": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (2/2)",
+              "50.0% of entries are WITSML export manifests (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "2/rig": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "33.3% of entries are WITSML export manifests (1/3)",
+              "66.7% of entries are XML (2/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "2/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (2/2)",
+              "secondary signal present: WITSML scored 60"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "2/tubular": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (37/37)",
+              "2.7% of entries are WITSML export manifests (1/37)",
+              "97.3% of entries are XML (36/37)"
+            ],
+            "file_count": 37,
+            "depth": 2
+          },
+          "2/wbGeometry": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "33.3% of entries are WITSML export manifests (1/3)",
+              "66.7% of entries are XML (2/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-StatoilHydro-15_$47$_9-F-10.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-StatoilHydro-15_$47$_9-F-10.zip",
+      "archive_size_bytes": 87759,
+      "entry_count": 12,
+      "file_count": 12,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 5,
+      "compressed_bytes": 85163,
+      "uncompressed_bytes": 1717574,
+      "ext_counts": {
+        ".xml": 7,
+        ".txt": 5
+      },
+      "sample_entries": [
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/_wellboreInfo/15_$47$_9-F-10 - Main Wellbore (B-924688)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/log/2/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/trajectory/1.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/trajectory/2.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/trajectory/3.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/trajectory/4.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/trajectory/5.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-10/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-10/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-10/_wellInfo/15_$47$_9-F-10 (W-924688).xml"
+      ],
+      "longest_path_length": 102,
+      "longest_path": "Norway-StatoilHydro-15_$47$_9-F-10/1/_wellboreInfo/15_$47$_9-F-10 - Main Wellbore (B-924688)(NULL).xml",
+      "utf8_flag_set_count": 12,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-StatoilHydro-15_$47$_9-F-10/",
+      "encoding_notes": [],
+      "content_checksum": "bc6291d4-12",
+      "raw_name_checksum": "231c6ad4-12",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "41.7% of entries sit in WITSML object subtrees (5/12)",
+          "41.7% of entries are WITSML export manifests (5/12)",
+          "58.3% of entries are XML (7/12)",
+          "secondary signal present: TRAJ scored 75"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 6,
+          "TRAJ": 6
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (6/6)",
+              "secondary signal present: WITSML scored 32"
+            ],
+            "file_count": 6,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-StatoilHydro-15_$47$_9-F-14.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-StatoilHydro-15_$47$_9-F-14.zip",
+      "archive_size_bytes": 40194,
+      "entry_count": 15,
+      "file_count": 15,
+      "dir_count": 0,
+      "implied_dir_count": 12,
+      "max_depth": 5,
+      "compressed_bytes": 36878,
+      "uncompressed_bytes": 550888,
+      "ext_counts": {
+        ".xml": 8,
+        ".txt": 7
+      },
+      "sample_entries": [
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/_wellboreInfo/15_$47$_9-F-14 - Main Wellbore (B-353085)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/log/2/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/trajectory/1.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/trajectory/2.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/trajectory/3.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/trajectory/4.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/trajectory/5.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/2/_wellboreInfo/17 1_$47$_2_$34$_ Final QAQCd Data (B-782511)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-14/2/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/2/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-14/_wellInfo/15_$47$_9-F-14 (W-353085).xml"
+      ],
+      "longest_path_length": 106,
+      "longest_path": "Norway-StatoilHydro-15_$47$_9-F-14/2/_wellboreInfo/17 1_$47$_2_$34$_ Final QAQCd Data (B-782511)(NULL).xml",
+      "utf8_flag_set_count": 15,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-StatoilHydro-15_$47$_9-F-14/",
+      "encoding_notes": [],
+      "content_checksum": "37c87f88-15",
+      "raw_name_checksum": "0f7c325d-15",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "53.3% of entries sit in WITSML object subtrees (8/15)",
+          "46.7% of entries are WITSML export manifests (7/15)",
+          "53.3% of entries are XML (8/15)",
+          "secondary signal present: TRAJ scored 65"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 9,
+          "TRAJ": 6
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (6/6)",
+              "secondary signal present: WITSML scored 32"
+            ],
+            "file_count": 6,
+            "depth": 2
+          },
+          "2": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "66.7% of entries are WITSML export manifests (2/3)"
+            ],
+            "file_count": 3,
+            "depth": 1
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-StatoilHydro-15_$47$_9-F-15.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-StatoilHydro-15_$47$_9-F-15.zip",
+      "archive_size_bytes": 28597,
+      "entry_count": 9,
+      "file_count": 9,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 5,
+      "compressed_bytes": 26595,
+      "uncompressed_bytes": 401876,
+      "ext_counts": {
+        ".txt": 5,
+        ".xml": 4
+      },
+      "sample_entries": [
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/_wellboreInfo/15_$47$_9-F-15 - Main Wellbore (B-826806)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/log/2/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/trajectory/1.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/trajectory/2.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15/_wellInfo/15_$47$_9-F-15 (W-826806).xml"
+      ],
+      "longest_path_length": 102,
+      "longest_path": "Norway-StatoilHydro-15_$47$_9-F-15/1/_wellboreInfo/15_$47$_9-F-15 - Main Wellbore (B-826806)(NULL).xml",
+      "utf8_flag_set_count": 9,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-StatoilHydro-15_$47$_9-F-15/",
+      "encoding_notes": [],
+      "content_checksum": "fa9e9b08-9",
+      "raw_name_checksum": "52ff066f-9",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "55.6% of entries sit in WITSML object subtrees (5/9)",
+          "55.6% of entries are WITSML export manifests (5/9)",
+          "secondary signal present: TRAJ scored 58"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 6,
+          "TRAJ": 3
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (3/3)",
+              "secondary signal present: WITSML scored 48"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-StatoilHydro-15_$47$_9-F-15A.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-StatoilHydro-15_$47$_9-F-15A.zip",
+      "archive_size_bytes": 24140,
+      "entry_count": 9,
+      "file_count": 9,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 5,
+      "compressed_bytes": 22116,
+      "uncompressed_bytes": 370769,
+      "ext_counts": {
+        ".txt": 5,
+        ".xml": 4
+      },
+      "sample_entries": [
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/_wellboreInfo/15_$47$_9-F-15A - Main Wellbore (B-861401)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/log/2/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/trajectory/1.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/trajectory/2.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15A/_wellInfo/15_$47$_9-F-15A (W-861401).xml"
+      ],
+      "longest_path_length": 104,
+      "longest_path": "Norway-StatoilHydro-15_$47$_9-F-15A/1/_wellboreInfo/15_$47$_9-F-15A - Main Wellbore (B-861401)(NULL).xml",
+      "utf8_flag_set_count": 9,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-StatoilHydro-15_$47$_9-F-15A/",
+      "encoding_notes": [],
+      "content_checksum": "594c916d-9",
+      "raw_name_checksum": "6115e2ac-9",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "55.6% of entries sit in WITSML object subtrees (5/9)",
+          "55.6% of entries are WITSML export manifests (5/9)",
+          "secondary signal present: TRAJ scored 58"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 6,
+          "TRAJ": 3
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (3/3)",
+              "secondary signal present: WITSML scored 48"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-StatoilHydro-15_$47$_9-F-15B.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-StatoilHydro-15_$47$_9-F-15B.zip",
+      "archive_size_bytes": 14431,
+      "entry_count": 8,
+      "file_count": 8,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 5,
+      "compressed_bytes": 12607,
+      "uncompressed_bytes": 216778,
+      "ext_counts": {
+        ".txt": 5,
+        ".xml": 3
+      },
+      "sample_entries": [
+        "Norway-StatoilHydro-15_$47$_9-F-15B/1/_wellboreInfo/15_$47$_9-F-15B - Main Wellbore (B-854763)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/1/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/1/log/2/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/1/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/1/trajectory/1.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15B/_wellInfo/15_$47$_9-F-15B (W-854763).xml"
+      ],
+      "longest_path_length": 104,
+      "longest_path": "Norway-StatoilHydro-15_$47$_9-F-15B/1/_wellboreInfo/15_$47$_9-F-15B - Main Wellbore (B-854763)(NULL).xml",
+      "utf8_flag_set_count": 8,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-StatoilHydro-15_$47$_9-F-15B/",
+      "encoding_notes": [],
+      "content_checksum": "a0b157d1-8",
+      "raw_name_checksum": "efe2546b-8",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "62.5% of entries sit in WITSML object subtrees (5/8)",
+          "62.5% of entries are WITSML export manifests (5/8)",
+          "secondary signal present: TRAJ scored 50"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 6,
+          "TRAJ": 2
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (2/2)",
+              "secondary signal present: WITSML scored 60"
+            ],
+            "file_count": 2,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Norway-StatoilHydro-15_$47$_9-F-15S.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Norway-StatoilHydro-15_$47$_9-F-15S.zip",
+      "archive_size_bytes": 26562,
+      "entry_count": 9,
+      "file_count": 9,
+      "dir_count": 0,
+      "implied_dir_count": 8,
+      "max_depth": 5,
+      "compressed_bytes": 24538,
+      "uncompressed_bytes": 397886,
+      "ext_counts": {
+        ".txt": 5,
+        ".xml": 4
+      },
+      "sample_entries": [
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/_wellboreInfo/15_$47$_9-F-15S - Main Wellbore (B-744206)(NULL).xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/log/1/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/log/2/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/log/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/trajectory/1.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/trajectory/2.xml",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/1/trajectory/MetaDataFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/MetaFileInfo.txt",
+        "Norway-StatoilHydro-15_$47$_9-F-15S/_wellInfo/15_$47$_9-F-15S (W-744206).xml"
+      ],
+      "longest_path_length": 104,
+      "longest_path": "Norway-StatoilHydro-15_$47$_9-F-15S/1/_wellboreInfo/15_$47$_9-F-15S - Main Wellbore (B-744206)(NULL).xml",
+      "utf8_flag_set_count": 9,
+      "utf8_flag_all_set": true,
+      "root_prefix": "Norway-StatoilHydro-15_$47$_9-F-15S/",
+      "encoding_notes": [],
+      "content_checksum": "c09c7b73-9",
+      "raw_name_checksum": "959275a9-9",
+      "classification": {
+        "archive_code": "WITSML",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "55.6% of entries sit in WITSML object subtrees (5/9)",
+          "55.6% of entries are WITSML export manifests (5/9)",
+          "secondary signal present: TRAJ scored 58"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "TRAJ",
+          "WITSML"
+        ],
+        "file_counts_by_code": {
+          "WITSML": 6,
+          "TRAJ": 3
+        },
+        "per_subdir": {
+          ".": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are WITSML export manifests (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "1/_wellboreInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "1/log": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (3/3)",
+              "100.0% of entries are WITSML export manifests (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "1/trajectory": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in a WITSML trajectory/ subtree (3/3)",
+              "secondary signal present: WITSML scored 48"
+            ],
+            "file_count": 3,
+            "depth": 2
+          },
+          "_wellInfo": {
+            "code": "WITSML",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit in WITSML object subtrees (1/1)",
+              "100.0% of entries are XML (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Volve_Production_data.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Volve_Production_data.zip",
+      "archive_size_bytes": 2011517,
+      "entry_count": 3,
+      "file_count": 2,
+      "dir_count": 1,
+      "implied_dir_count": 1,
+      "max_depth": 2,
+      "compressed_bytes": 2010989,
+      "uncompressed_bytes": 2343915,
+      "ext_counts": {
+        ".txt": 1,
+        ".xlsx": 1
+      },
+      "sample_entries": [
+        "Production_data/Volve production data.xlsx",
+        "Production_data/license.txt"
+      ],
+      "longest_path_length": 42,
+      "longest_path": "Production_data/Volve production data.xlsx",
+      "utf8_flag_set_count": 0,
+      "utf8_flag_all_set": false,
+      "root_prefix": "Production_data/",
+      "encoding_notes": [],
+      "content_checksum": "3c3454bd-2",
+      "raw_name_checksum": "73333fd7-2",
+      "classification": {
+        "archive_code": "PROD",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "100.0% of entries sit under a production-data folder (2/2)",
+          "secondary signal present: DOC scored 25"
+        ],
+        "mixed": false,
+        "codes_present": [
+          "PROD"
+        ],
+        "file_counts_by_code": {
+          "PROD": 2
+        },
+        "per_subdir": {
+          ".": {
+            "code": "PROD",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit under a production-data folder (2/2)",
+              "secondary signal present: DOC scored 25"
+            ],
+            "file_count": 2,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Volve_Reports.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Volve_Reports.zip",
+      "archive_size_bytes": 169470945,
+      "entry_count": 4,
+      "file_count": 3,
+      "dir_count": 1,
+      "implied_dir_count": 1,
+      "max_depth": 2,
+      "compressed_bytes": 169470321,
+      "uncompressed_bytes": 187239137,
+      "ext_counts": {
+        ".pdf": 2,
+        ".txt": 1
+      },
+      "sample_entries": [
+        "Reports/Discovery_report.pdf",
+        "Reports/Volve PUD .pdf",
+        "Reports/license.txt"
+      ],
+      "longest_path_length": 28,
+      "longest_path": "Reports/Discovery_report.pdf",
+      "utf8_flag_set_count": 0,
+      "utf8_flag_all_set": false,
+      "root_prefix": "Reports/",
+      "encoding_notes": [],
+      "content_checksum": "d856e69f-3",
+      "raw_name_checksum": "a78559ee-3",
+      "classification": {
+        "archive_code": "DOC",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "66.7% of entries are documents (2/3)",
+          "100.0% of entry names look like report/licence documents (3/3)"
+        ],
+        "mixed": false,
+        "codes_present": [
+          "DOC"
+        ],
+        "file_counts_by_code": {
+          "DOC": 3
+        },
+        "per_subdir": {
+          ".": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "66.7% of entries are documents (2/3)",
+              "100.0% of entry names look like report/licence documents (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Volve_Reservoir_Model-Eclipse_model.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Volve_Reservoir_Model-Eclipse_model.zip",
+      "archive_size_bytes": 409380233,
+      "entry_count": 67,
+      "file_count": 65,
+      "dir_count": 2,
+      "implied_dir_count": 2,
+      "max_depth": 3,
+      "compressed_bytes": 409361227,
+      "uncompressed_bytes": 1703985968,
+      "ext_counts": {
+        "<noext>": 15,
+        ".grdecl": 6,
+        ".sch": 6,
+        ".inc": 4,
+        ".msg": 4,
+        ".incl": 3,
+        ".txt": 2,
+        ".ecl": 2,
+        ".e100": 2,
+        ".data": 2,
+        ".db": 1,
+        ".pptx": 1,
+        ".dbg": 1,
+        ".eclend": 1,
+        ".eclrun": 1,
+        ".eclrun_dbg": 1,
+        ".grid": 1,
+        ".h5": 1,
+        ".init": 1,
+        ".inspec": 1,
+        ".log": 1,
+        ".out": 1,
+        ".prt": 1,
+        ".rft": 1,
+        ".rsspec": 1,
+        ".smspec": 1,
+        ".unrst": 1,
+        ".unsmry": 1,
+        ".summary": 1
+      },
+      "sample_entries": [
+        "Reservoir_Model-Eclipse_model/ReadMe.txt",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/EQLNUM_2013",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/F-12_NOV_10_TEST_2.Ecl",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/FAULT_MAIN-F12-F14-AP2014.GRDECL",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/FIPNUM13_REMOVAL",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/GRID_postF1B_Nov2013_locupd_12112013.grdecl",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/MOD2013_VOLVE_HM_NTRANS_BASE-SHUT-DEF-F11-BHP-F12-3.SCH",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/PHIF_NW",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/SCH_151215_10DAYS.SCH",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/SOF3_NEW_PESS_2TABLES.INCL",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/Thumbs.db",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.2.MSG",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.DBG",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.GRID",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.LOG",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.PRT",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.UNRST",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/VOLVE_2016.h5",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/WELL_WSEG_TRACER_HK3_MA.SUMMARY",
+        "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/pp03_KRW"
+      ],
+      "longest_path_length": 125,
+      "longest_path": "Reservoir_Model-Eclipse_model/Volve_sim_model_PPA-Eclipse Res Model/pvt_input_new_combined_PVDG_020610_perch_water_2914m.E100",
+      "utf8_flag_set_count": 0,
+      "utf8_flag_all_set": false,
+      "root_prefix": "Reservoir_Model-Eclipse_model/",
+      "encoding_notes": [],
+      "content_checksum": "93a17503-65",
+      "raw_name_checksum": "196d90df-65",
+      "classification": {
+        "archive_code": "SIM",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "47.7% of entries carry Eclipse deck/output extensions (31/65)",
+          "100.0% of entry names contain an Eclipse model marker (65/65)"
+        ],
+        "mixed": false,
+        "codes_present": [
+          "SIM"
+        ],
+        "file_counts_by_code": {
+          "SIM": 65
+        },
+        "per_subdir": {
+          ".": {
+            "code": "SIM",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names contain an Eclipse model marker (2/2)",
+              "secondary signal present: DOC scored 25"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "Volve_sim_model_PPA-Eclipse Res Model": {
+            "code": "SIM",
+            "confidence": "high",
+            "evidence": [
+              "49.2% of entries carry Eclipse deck/output extensions (31/63)",
+              "100.0% of entry names contain an Eclipse model marker (63/63)"
+            ],
+            "file_count": 63,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Volve_Seismic_VSP.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Volve_Seismic_VSP.zip",
+      "archive_size_bytes": 99961401,
+      "entry_count": 53,
+      "file_count": 48,
+      "dir_count": 5,
+      "implied_dir_count": 5,
+      "max_depth": 4,
+      "compressed_bytes": 99949295,
+      "uncompressed_bytes": 124147492,
+      "ext_counts": {
+        ".segy": 34,
+        ".txt": 6,
+        ".asc": 4,
+        ".pdf": 3,
+        ".las": 1
+      },
+      "sample_entries": [
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_1.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_11.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_13.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_16.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_18.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_20.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_2009-01-05_INF.PDF",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_22.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_25.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_27.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_3.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_4.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_6.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_9.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_STKLIST.PDF",
+        "VSP/15_9_F_15A_VSP/VSPNI_RAW_2009-01-05/VSPNI_RAW_2.SEGY",
+        "VSP/15_9_F_15A_VSP/VSPNI_RAW_2009-01-05/VSPNI_RAW_2009-01-05_INF.PDF",
+        "VSP/15_9_F_15A_VSP/VSPNI_RAW_2009-01-05/VSPNI_RAW_4.SEGY",
+        "VSP/Checkshots/checkshot_15_9_19_SR.txt",
+        "VSP/Checkshots/checkshot_15_9_F_15A.txt"
+      ],
+      "longest_path_length": 78,
+      "longest_path": "VSP/15_9_F_15A_VSP/VSPNI_COMPUTED_2009-01-05/VSPNI_COMPUTED_2009-01-05_INF.ASC",
+      "utf8_flag_set_count": 0,
+      "utf8_flag_all_set": false,
+      "root_prefix": "VSP/",
+      "encoding_notes": [],
+      "content_checksum": "4129c610-48",
+      "raw_name_checksum": "9998c5b7-48",
+      "classification": {
+        "archive_code": "VSP",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "70.8% SEG-Y entries, all under a VSP/checkshot path (34/48)",
+          "10.4% of entry names contain 'checkshot' (5/48)"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DOC",
+          "VSP"
+        ],
+        "file_counts_by_code": {
+          "VSP": 46,
+          "DOC": 2
+        },
+        "per_subdir": {
+          ".": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entry names look like report/licence documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "15_9_F_15A_VSP": {
+            "code": "VSP",
+            "confidence": "high",
+            "evidence": [
+              "82.9% SEG-Y entries, all under a VSP/checkshot path (34/41)"
+            ],
+            "file_count": 41,
+            "depth": 1
+          },
+          "Checkshots": {
+            "code": "VSP",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names contain 'checkshot' (5/5)",
+              "secondary signal present: LOG scored 30"
+            ],
+            "file_count": 5,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "name": "Volve_Well_technical_data.zip",
+      "path": "C:\\Apply Kerja\\DE\\volve\\Volve_Well_technical_data.zip",
+      "archive_size_bytes": 222167142,
+      "entry_count": 5568,
+      "file_count": 5480,
+      "dir_count": 88,
+      "implied_dir_count": 88,
+      "max_depth": 5,
+      "compressed_bytes": 220632986,
+      "uncompressed_bytes": 410188371,
+      "ext_counts": {
+        ".pdf": 1831,
+        ".xml": 1760,
+        ".html": 1759,
+        "<noext>": 109,
+        ".sck": 8,
+        ".txt": 7,
+        ".wcd": 3,
+        ".db": 2,
+        ".zip": 1
+      },
+      "sample_entries": [
+        "Well_technical_data/CasingSeat/left_intentionally_empty.txt",
+        "Well_technical_data/Daily Drilling Report - HTML Version/15_9_19_ST2_1993_03_17.html",
+        "Well_technical_data/Daily Drilling Report - HTML Version/15_9_F_11_B_2016_04_16.html",
+        "Well_technical_data/Daily Drilling Report - HTML Version/15_9_F_14_2008_05_20.html",
+        "Well_technical_data/Daily Drilling Report - HTML Version/15_9_F_15_C_2013_10_24.html",
+        "Well_technical_data/Daily Drilling Report - HTML Version/15_9_F_1_C_2014_04_01.html",
+        "Well_technical_data/Daily Drilling Report - HTML Version/15_9_F_5_2016_08_29.html",
+        "Well_technical_data/Daily Drilling Report - XML Version/15_9_19_BT2_1998_01_21.xml",
+        "Well_technical_data/Daily Drilling Report - XML Version/15_9_F_10_2009_06_01.xml",
+        "Well_technical_data/Daily Drilling Report - XML Version/15_9_F_12_2007_09_06.xml",
+        "Well_technical_data/Daily Drilling Report - XML Version/15_9_F_15_2008_12_04.xml",
+        "Well_technical_data/Daily Drilling Report - XML Version/15_9_F_1_A_2013_08_27.xml",
+        "Well_technical_data/Daily Drilling Report - XML Version/15_9_F_4_2008_04_16.xml",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_19_A_1997_09_03.pdf",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_19_ST2_1993_04_30.pdf",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_F_11_T2_2013_04_15.pdf",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_F_14_2008_07_03.pdf",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_F_15_D_2013_12_06.pdf",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_F_1_C_2016_06_28.pdf",
+        "Well_technical_data/Daily Drilling report - PDF Version/15_9_F_7_2007_10_10.pdf"
+      ],
+      "longest_path_length": 215,
+      "longest_path": "Well_technical_data/WellWellbore/Relief well location 1/F-1 A Northwest Injector 9 58 csg. shoe/Volve F_Relief well location 1_F-1 A Northwest Injector 9 58 csg shoe_F-1 A Northwest Injector 9 58 csg shoe revp1_PLAN",
+      "utf8_flag_set_count": 3,
+      "utf8_flag_all_set": false,
+      "root_prefix": "Well_technical_data/",
+      "encoding_notes": [
+        {
+          "entry_as_read": "Well_technical_data/WellWellbore/15_9-F-8/15_9-F-8/Standard Survey Report_Volve F_F-8_F-8_F8 Volve Sør Prod DRAFT NewRigCoords 220607_PLAN.pdf",
+          "utf8_flag": true,
+          "as_utf8": "Well_technical_data/WellWellbore/15_9-F-8/15_9-F-8/Standard Survey Report_Volve F_F-8_F-8_F8 Volve Sør Prod DRAFT NewRigCoords 220607_PLAN.pdf",
+          "as_latin1": null,
+          "differs": false
+        },
+        {
+          "entry_as_read": "Well_technical_data/WellWellbore/15_9-F-8/15_9-F-8/Volve F_F-8_F-8_F8 Volve Sør Prod DRAFT 120107_PROTOTYPE",
+          "utf8_flag": true,
+          "as_utf8": "Well_technical_data/WellWellbore/15_9-F-8/15_9-F-8/Volve F_F-8_F-8_F8 Volve Sør Prod DRAFT 120107_PROTOTYPE",
+          "as_latin1": null,
+          "differs": false
+        },
+        {
+          "entry_as_read": "Well_technical_data/WellWellbore/15_9-F-8/15_9-F-8/Volve F_F-8_F-8_F8 Volve Sør Prod DRAFT NewRigCoords 220607_PLAN",
+          "utf8_flag": true,
+          "as_utf8": "Well_technical_data/WellWellbore/15_9-F-8/15_9-F-8/Volve F_F-8_F-8_F8 Volve Sør Prod DRAFT NewRigCoords 220607_PLAN",
+          "as_latin1": null,
+          "differs": false
+        }
+      ],
+      "content_checksum": "0b348cf9-5480",
+      "raw_name_checksum": "68491673-5480",
+      "classification": {
+        "archive_code": "DDR",
+        "archive_confidence": "high",
+        "archive_evidence": [
+          "96.3% of entries sit under a 'Daily Drilling Report' folder (5277/5480)",
+          "96.3% of entries use the per-well per-day report filename pattern (5277/5480)",
+          "secondary signal present: DOC scored 82"
+        ],
+        "mixed": true,
+        "codes_present": [
+          "DDR",
+          "DOC",
+          "TRAJ",
+          "UNCLASSIFIED"
+        ],
+        "file_counts_by_code": {
+          "DDR": 5277,
+          "TRAJ": 168,
+          "UNCLASSIFIED": 15,
+          "DOC": 6
+        },
+        "per_subdir": {
+          ".": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "CasingSeat": {
+            "code": "UNCLASSIFIED",
+            "confidence": "placeholder",
+            "evidence": [
+              "all 1 entries are 'left_intentionally_empty' placeholders: the source shipped this folder deliberately empty, so there is no content to classify"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "CasingWear": {
+            "code": "UNCLASSIFIED",
+            "confidence": "placeholder",
+            "evidence": [
+              "all 1 entries are 'left_intentionally_empty' placeholders: the source shipped this folder deliberately empty, so there is no content to classify"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "Compass": {
+            "code": "UNCLASSIFIED",
+            "confidence": "placeholder",
+            "evidence": [
+              "all 1 entries are 'left_intentionally_empty' placeholders: the source shipped this folder deliberately empty, so there is no content to classify"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "Daily Drilling Report - HTML Version": {
+            "code": "DDR",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit under a 'Daily Drilling Report' folder (1759/1759)",
+              "100.0% of entries use the per-well per-day report filename pattern (1759/1759)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 1759,
+            "depth": 1
+          },
+          "Daily Drilling Report - XML Version": {
+            "code": "DDR",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit under a 'Daily Drilling Report' folder (1759/1759)",
+              "100.0% of entries use the per-well per-day report filename pattern (1759/1759)",
+              "secondary signal present: DOC scored 50"
+            ],
+            "file_count": 1759,
+            "depth": 1
+          },
+          "Daily Drilling report - PDF Version": {
+            "code": "DDR",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries sit under a 'Daily Drilling Report' folder (1759/1759)",
+              "100.0% of entries use the per-well per-day report filename pattern (1759/1759)",
+              "secondary signal present: DOC scored 150"
+            ],
+            "file_count": 1759,
+            "depth": 1
+          },
+          "EDM.XML": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names carry a Compass/EDM survey marker (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "Site": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "Site_TemplateSlot": {
+            "code": "DOC",
+            "confidence": "medium",
+            "evidence": [
+              "50.0% of entries are documents (1/2)"
+            ],
+            "file_count": 2,
+            "depth": 1
+          },
+          "StressCheck": {
+            "code": "UNCLASSIFIED",
+            "confidence": "none",
+            "evidence": [
+              "no rule matched; extension mix is .sck x8"
+            ],
+            "file_count": 8,
+            "depth": 1
+          },
+          "WellPlan": {
+            "code": "UNCLASSIFIED",
+            "confidence": "placeholder",
+            "evidence": [
+              "all 1 entries are 'left_intentionally_empty' placeholders: the source shipped this folder deliberately empty, so there is no content to classify"
+            ],
+            "file_count": 1,
+            "depth": 1
+          },
+          "WellWellbore/15_9-19/15_9-19 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-19/15_9-19 B": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-19/15_9-19 BT2": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-19/15_9-19 S": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-19/15_9-19 SR": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-1/15_9-F-1": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-1/15_9-F-1 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-1/15_9-F-1 B": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-1/15_9-F-1 C": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-10/15_9-F-10": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-10/15_9-F-10 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "10.0% of entry names carry a Compass/EDM survey marker (1/10)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (10/10)"
+            ],
+            "file_count": 10,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/15_9-F-11": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/15_9-F-11 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/15_9-F-11 B": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/15_9-F-11 T2": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "40.0% of entry names carry a Compass/EDM survey marker (2/5)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (5/5)",
+              "secondary signal present: DOC scored 60"
+            ],
+            "file_count": 5,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/Relief well 1049m West": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/Relief well 1352m South": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/Relief well 508m West": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-11/Relief well 966m North": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-12": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "40.0% of entry names carry a Compass/EDM survey marker (2/5)",
+              "80.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/5)",
+              "secondary signal present: DOC scored 80"
+            ],
+            "file_count": 5,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-13": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "9.1% of entry names carry a Compass/EDM survey marker (1/11)",
+              "90.9% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (10/11)"
+            ],
+            "file_count": 11,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-14/15_9-F-14": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-14/15_9-F-14 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (3/3)"
+            ],
+            "file_count": 3,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-15/15_9-F-15": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-15/15_9-F-15 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-15/15_9-F-15 B": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-15/15_9-F-15 C": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (1/2)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-15/15_9-F-15 D": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-2": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "10.0% of entry names carry a Compass/EDM survey marker (1/10)",
+              "90.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (9/10)",
+              "secondary signal present: DOC scored 25"
+            ],
+            "file_count": 10,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-3": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "14.3% of entry names carry a Compass/EDM survey marker (1/7)",
+              "85.7% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (6/7)",
+              "secondary signal present: DOC scored 36"
+            ],
+            "file_count": 7,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-4": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "33.3% of entry names carry a Compass/EDM survey marker (2/6)",
+              "83.3% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (5/6)",
+              "secondary signal present: DOC scored 67"
+            ],
+            "file_count": 6,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-5": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "40.0% of entry names carry a Compass/EDM survey marker (2/5)",
+              "80.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/5)",
+              "secondary signal present: DOC scored 80"
+            ],
+            "file_count": 5,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-6": {
+            "code": "DOC",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entries are documents (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-7": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "40.0% of entry names carry a Compass/EDM survey marker (2/5)",
+              "80.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/5)",
+              "secondary signal present: DOC scored 80"
+            ],
+            "file_count": 5,
+            "depth": 2
+          },
+          "WellWellbore/15_9-F-8/15_9-F-8": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "25.0% of entry names carry a Compass/EDM survey marker (1/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 38"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-8/15_9-F-8 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-9/15_9-F-9": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/15_9-F-9/15_9-F-9 A": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "50.0% of entry names carry a Compass/EDM survey marker (2/4)",
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (4/4)",
+              "secondary signal present: DOC scored 75"
+            ],
+            "file_count": 4,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 1/F-1 A Northwest Injector 9 58 csg. shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 1/F-1 B 9 58 csg.shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 1/F-1 North Upside Pilot 13 38 csg. shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 2/F-1 A Nortwest Injector 9 58 csg. shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 2/F-1 North Upside Pilot 13 38 csg. shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 3/F-1 C": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 3/F-12": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 3/F-15 C Top Resevoir Intersection": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)",
+              "secondary signal present: GEOM scored 110"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 3/F-15 D": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 4/F-1 C": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 4/F-15 C Top Reservoir Intersection": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)",
+              "secondary signal present: GEOM scored 110"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 4/F-15 D": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (2/2)"
+            ],
+            "file_count": 2,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 5/F-1 A  Northwest Injector 9 58 csg.shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 5/F-1 B 9 58 csg.shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 5/F-1 North Upside Pilot 13 38 csg.shoe": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "WellWellbore/Relief well location 5/F-12": {
+            "code": "TRAJ",
+            "confidence": "high",
+            "evidence": [
+              "100.0% of entry names end in a Compass wellpath status (_PLAN/_PROTOTYPE/_ACTUAL/_DEFINITIVE) (1/1)"
+            ],
+            "file_count": 1,
+            "depth": 3
+          },
+          "Wellcat": {
+            "code": "UNCLASSIFIED",
+            "confidence": "none",
+            "evidence": [
+              "no rule matched; extension mix is .wcd x3"
+            ],
+            "file_count": 3,
+            "depth": 1
+          }
+        }
+      },
+      "error": null
+    }
+  ]
+}
