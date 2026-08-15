@@ -1,0 +1,63 @@
+[project]
+name = "hugin"
+version = "0.1.0"
+description = "Full-field data platform for the Volve field, North Sea"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+# The dependency list is closed. Adding to it requires an ADR in docs/adr/ that
+# says what the package buys and what was rejected — see CLAUDE.md.
+dependencies = [
+    "pandas",         # tabular wrangling in the ingestion stage
+    "pyarrow",        # Parquet/Arrow interchange into Iceberg
+    "duckdb",         # second dbt target; local analysis without a container
+    "pydantic",       # typed contracts for parsed records
+    "pydantic-settings",  # env-file configuration
+    "httpx",          # Sodir FactPages / remote byte-range reads
+    "structlog",      # structured logs from pipeline tasks
+    "lasio",          # LAS 2.0 well logs (LOG)
+    "lxml",           # WITSML and EDM XML (WITSML, TRAJ)
+    "segyio",         # SEG-Y headers (SEIS) — headers only, see SPEC.md section 2
+    "pyproj",         # ED50 -> WGS84 datum transformation (BR-10)
+    "selectolax",     # daily drilling report HTML (DDR)
+    "jsonschema",     # OSDU well-known schema validation (ADR 008)
+]
+
+[dependency-groups]
+dev = [
+    "pytest",         # Python tests, including one per BR-xx
+    "hypothesis",     # property tests for the physical invariants (BR-06, BR-09)
+    "ruff",           # Python lint and format
+    "sqlfluff",       # dbt/SQL lint
+    "dbt-core",       # transformation, tests, docs — ADR 004
+    "dbt-trino",      # primary target
+    "dbt-duckdb",     # second target: CI without containers
+]
+
+# `hugin` is a real installed package, not a directory that happens to be on
+# PYTHONPATH. `uv sync` installs it into .venv in editable mode, so `import hugin`
+# works from any working directory and inside the Airflow and dbt containers,
+# which have no pytest and no PYTHONPATH shim. See docs/adr/010.
+# The backend is uv's own, shipped inside the uv binary — no third-party build
+# dependency is added to the closed list in CLAUDE.md.
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "src"
+module-name = "hugin"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "integration: needs the compose stack running (docker compose --profile core up -d)",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

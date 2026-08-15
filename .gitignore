@@ -1,0 +1,56 @@
+# --- data ----------------------------------------------------------------
+# Everything under data/ is derived from a read-only archive and can be rebuilt
+# with `make extract`. None of it belongs in git.
+data/*
+
+# One exception. name-mapping.csv is a DATA ARTEFACT, not a log: the identity
+# phase reads it to recover original names from sanitised ones, and it cannot be
+# regenerated once the extraction that produced it is gone. Git will not look
+# inside an ignored directory, so the path has to be un-ignored a level at a
+# time.
+!data/_inventory/
+data/_inventory/*
+!data/_inventory/name-mapping.csv
+
+# Same reasoning, different direction: identity-manual-mapping.csv is human
+# input, not output. It records decisions a person made that the rules could
+# not, and BR-12 reads it ahead of every rule.
+!data/_inventory/identity-manual-mapping.csv
+
+# Generated fixtures are derived from profiles.json and a seed; MANIFEST.json
+# records the checksums, so regenerating is cheaper than storing them.
+data/fixtures/
+
+# --- secrets -------------------------------------------------------------
+.env
+*.pem
+*.key
+
+# --- docs ----------------------------------------------------------------
+# docs/ is committed in full, including docs/source-readme/ and the licence PDF
+# in docs/licenses/: documentation written by the data producer outranks
+# anything we infer, and the licence has to travel with the repo.
+
+# --- python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# --- tooling -------------------------------------------------------------
+logs/
+target/
+dbt_packages/
+.DS_Store
+data/
+*.pyc
+.hypothesis/
+.mypy_cache/
+*.log
+.ipynb_checkpoints/
+transform/target/
+transform/dbt_packages/
+transform/logs/
