@@ -45,7 +45,6 @@ logs/
 target/
 dbt_packages/
 .DS_Store
-data/
 *.pyc
 .hypothesis/
 .mypy_cache/
@@ -54,3 +53,9 @@ data/
 transform/target/
 transform/dbt_packages/
 transform/logs/
+
+# data: kecualikan semua, kecuali tabel pemetaan nama
+data/*
+!data/_inventory/
+data/_inventory/*
+!data/_inventory/name-mapping.csv
